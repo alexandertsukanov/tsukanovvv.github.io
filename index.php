@@ -28,13 +28,6 @@
 
 <body>
 
-<script>
-    $(function () {
-        $(document).ready(function () {
-            $('#menu_m').slicknav();
-        });
-    });
-</script>
 <ul onclick="" id="menu_m">
     <li><a href="#">О компании</a></li>
     <li><a href="#">Наши проекты</a></li>

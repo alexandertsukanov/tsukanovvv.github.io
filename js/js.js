@@ -2,6 +2,12 @@ $("#one").hide(0).delay(200).fadeIn(3000)
 $("#two").hide(0).delay(2000).fadeIn(3000)
 
 
+$(function () {
+    $(document).ready(function () {
+        $('#menu_m').slicknav();
+    });
+});
+
 $(document).ready(function () {
 
     $("#phone").inputmask("+99(999)999-99-99")

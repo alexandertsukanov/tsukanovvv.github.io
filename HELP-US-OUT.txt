@@ -1,0 +1,46 @@
+<?php /*  <!--<div class="sixth">-->
+<!--    <div class="container">-->
+<!---->
+<!--        <h5>Руководство</h5>-->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!--        <div id="slider" class="owl-carousel owl-theme" >-->
+<!---->
+<!--            <div  class="member">-->
+<!--                <div class="imgBox1"></div>-->
+<!---->
+<!--                <h4>Александр Цуканов<br>CEO</h4>-->
+<!--                <i class="fa fa-skype" aria-hidden="true"></i>-->
+<!--                <i class="fa fa-facebook-official" aria-hidden="true"></i>-->
+<!--                <i class="fa fa-vk" aria-hidden="true"></i>-->
+<!--            </div>-->
+<!--            <div class="member">-->
+<!--                <div class="imgBox2"></div>-->
+<!--                <h4>Виталик Сидоренко<br>CBO</h4>-->
+<!---->
+<!--                <i class="fa fa-skype" aria-hidden="true"></i>-->
+<!--                <i class="fa fa-facebook-official" aria-hidden="true"></i>-->
+<!--                <i class="fa fa-vk" aria-hidden="true"></i>-->
+<!--            </div>-->
+<!--            <div class="member">-->
+<!--                <div class="imgBox3"></div>-->
+<!--                <h4>Татьяна Борисова<br>CMO</h4>-->
+<!---->
+<!--                <i class="fa fa-skype" aria-hidden="true"></i>-->
+<!--                <i class="fa fa-facebook-official" aria-hidden="true"></i>-->
+<!--                <i class="fa fa-vk" aria-hidden="true"></i>-->
+<!--            </div>-->
+<!---->
+<!---->
+<!---->
+<!--        </div>-->
+<!---->
+<!---->
+<!--    </div>-->
+<!---->
+<!---->
+<!--</div>-->
+*/?>

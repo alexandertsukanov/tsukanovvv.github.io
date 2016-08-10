@@ -241,7 +241,7 @@
                     </tr>
                     <tr>
                         <td><input name="email" id="email" type="text" placeholder="E-mail"></td>
-                        <td><input name="phone" id="phone" type="text" size="20" placeholder="Телефон"></td>
+                        <td><input name="phone" id="phone" type="text" placeholder="Телефон"></td>
                     </tr>
                     <br>
                     <tr>

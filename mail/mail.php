@@ -1,27 +1,34 @@
-<!DOCTYPE html>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-<html>
 
 <?php
-if (isset($_POST['submit'])) {
-    $to = "alexander.tsukanovvv@gmail.com"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-    $first_name = $_POST['name'];
-    $last_name = $_POST['surname'];
-    $subject = "Form submission";
-    $subject2 = "Copy of your form submission";
-    $phone = $_POST['phone'];
-    $message = $first_name . " " . $last_name . " написал следующее:" . "\n\n" . $_POST['message'] . "\n" . "Телефон: " . $_POST['phone'];
-    $message2 = "Копия Вашего сообщения " . $first_name . ":" . "\n\n" . $_POST['message'];
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to, $subject, $message, $headers);
-    mail($from, $subject2, $message2, $headers2); // sends a copy of the message to the sender
-    echo "Ваше письмо отправлено. Спасибо, " . $first_name . ", мы скоро с Вами свяжемся.";
-    // You can also use header('Location: thank_you.php'); to redirect to another page.
+require 'PHPMailerAutoload.php';
+
+$mail = new PHPMailer;
+
+//$mail->SMTPDebug = 3;                               // Enable verbose debug output
+
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp.mailgun.org';  // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = 'postmaster@sandbox195b4245e5fa4f9981afc522f651d7c4.mailgun.org';                 // SMTP username
+$mail->Password = '003a5b7481570f54ce58400f89426a5e';                           // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;                                    // TCP port to connect to
+
+$mail->setFrom('oriole.software@gmail.com');
+$mail->addAddress('oriole.software@gmail.com', 'Oriole Ltd.');     // Add a recipient
+// Name is optional
+$mail->isHTML(true);                                  // Set email format to HTML
+
+$mail->Subject = 'New feedback';
+$mail->Body = "</br>" . "Name: " . $_POST['name'] . "</br> " . "Surname: " . $_POST['surname'] . "</br>" . "Email: " . $_POST['email'] . "</br>" . "Writed next: " . "</br></br>" . $_POST['message'];
+
+$mail->AltBody = "\n" . "Name: " . $_POST['name'] . "\n" . "Surname: " . $_POST['surname'] . "\n" . "Email: " . $_POST['email'] . "\n" . "Writed next: " . "\n\n" . $_POST['message'];
+
+if (!$mail->send()) {
+    echo 'Message could not be sent.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
+} else {
+    echo 'Message has been sent';
 }
 ?>
-
-
-</html>

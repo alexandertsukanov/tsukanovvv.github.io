@@ -269,6 +269,7 @@ body {
 }
 
 .fouth ul li {
+
     display: block;
     font-family: 'Franklin Gothic Book';
     font-size: 3.0em;
@@ -278,15 +279,6 @@ body {
     padding: 35px 0 35px 60px;
 }
 
-.fouth ul li span {
-    font-size: 0.6em;
-    color: #ffffff;
-    border-top: 3px solid #abd0ca;
-    border-bottom: 3px solid #abd0ca;
-    padding: 22px 0px 18px 0px;
-    margin-left: 70px;
-    vertical-align: middle;
-}
 
 .fouth .cloudbig {
 
@@ -952,7 +944,17 @@ body {
     .fouth h5 {
 
         font-size: 6em;
+    }
 
+    .fouth ul li {
+
+        display: block;
+        font-family: 'Franklin Gothic Book';
+        font-size: 4.0em;
+        color: #ffffff;
+        border-radius: 28px;
+        position: relative;
+        padding: 35px 40px 35px 30px;
     }
 
     .fouth .cloudbig {

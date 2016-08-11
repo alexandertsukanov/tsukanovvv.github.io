@@ -58,7 +58,7 @@ function init_map() {
     };
     map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
     marker = new google.maps.Marker({map: map, position: new google.maps.LatLng(50.0052938, 36.24293090000003)});
-    infowindow = new google.maps.InfoWindow({content: '<strong>Oriole Ltd.</strong><br>ул. Алчевских, 31, Харьков, Харьковская область<br>'});
+    infowindow = new google.maps.InfoWindow({content: '<strong>Oriole Ltd.</strong><br>ул. Алчевских 31, Харьков, Харьковская область<br>'});
     google.maps.event.addListener(marker, 'click', function () {
         infowindow.open(map, marker);
     });

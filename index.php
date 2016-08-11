@@ -4,11 +4,12 @@
 
 <head>
     <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
-    <meta name="description" content="">
     <meta name="Keywords" content="">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Oriole Ltd.</title>
+    <title>Oriole Ltd - разработка и создание сайтов </title>
+    <meta name="description" lang="ru"
+          content="Веб-студия Oriole Ltd предоставляет услуги по разработке веб-сайтов, промо-сайтов, корпоративных сайтов, интернет-магазинов и веб-приложений"/>
 
 
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="all">
@@ -44,7 +45,7 @@
     </ul>
 </div>
 
-<a id="logo" href="index.php"><img src="image/MainLogo.png"></a>
+<a id="logo" href="index"><img src="image/MainLogo.png"></a>
 
 
 <header>
@@ -81,11 +82,12 @@
     <div class="container">
         <h5>О Компании</h5>
 
-        <p>Oriole Ltd. является Восточно-европейской веб-студией. Мы находимся в городе Харькове, Украина. Наше кредо -
+        <p>Oriole Ltd. является Восточно-Европейской веб-студией. Мы находимся в городе Харькове, Украина. Кредо
+            компании
             предоставлять качественные веб-сайты в срок, с учетом изменяющийся каждый день тенденций. Мы выполняем
             полный цикл работ по созданию веб-проектов различного уровня сложности: разработка промо-сайтов,
-            корпоративных сайтов и интернет-магазинов. Каждый из наших проектов не только работа, которая будет
-            выполнена - это отдельный шедевр, который мы рисуем и создаем вместе с нашими заказчиками. </p>
+            корпоративных сайтов и интернет-магазинов. Каждый из проектов не только работа, которая будет
+            выполнена - это отдельный шедевр, который мы рисуем и создаем вместе с каждым заказчиком. </p>
     </div>
 </div>
 <div class="fouth">
@@ -94,10 +96,10 @@
         <ul>
             <li>Корпоративный сайт <img class="cloudbig" src="image/cloud.png"/> <img class="cloudImgbig"
                                                                                       src="image/cloudImg1.png"/></li>
-            <li>Создание интернет-магазина<img class="cloudsmall" src="image/cloud.png"/> <img class="cloudImgsmall"
+            <li>Сайт визитка<img class="cloudsmall" src="image/cloud.png"/> <img class="cloudImgsmall"
                                                                                                src="image/cloudImg2.png"/>
             </li>
-            <li>Сайт визитка<img class="cloudbig" src="image/cloud.png"/> <img class="cloudImgbig"
+            <li>Создание интернет-магазина<img class="cloudbig" src="image/cloud.png"/> <img class="cloudImgbig"
                                                                                src="image/cloudImg3.png"/></li>
             <li>Интернет портал<img class="cloudsmall" src="image/cloud.png"/> <img class="cloudImgsmall"
                                                                                     src="image/cloudImg4.png"/></li>
@@ -235,7 +237,7 @@
         </div>
 
         <div class="feedback">
-            <form id="feedback" action="mail/mail.php" method="post">
+            <form id="feedback" action="mail/mail" method="post">
                 <table>
                     <tr>
                         <td><input name="name" id="name" type="text" placeholder="Имя"></td>

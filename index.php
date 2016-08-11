@@ -48,15 +48,16 @@
 
 
 <header>
-
-
     <div class="clear"></div>
-</header>
-<div class="first">
-    <h1 id="one">Oriole</h1>
+    <div class="first">
+        <h1 id="one">Oriole</h1>
 
-    <h2 id="two">Web Solutions</h2>
-</div>
+        <h2 id="two">Web Solutions</h2>
+
+    </div>
+</header>
+
+
 <div class="container">
     <ul class="second">
 
@@ -91,10 +92,15 @@
     <div class="container">
         <h5>Услуги</h5>
         <ul>
-            <li>Корпоративный сайт<b></b></li>
-            <li>Создание интернет-магазина<b></b></li>
-            <li>Сайт визитка<b></b></li>
-            <li>Интернет портал<b></b></li>
+            <li>Корпоративный сайт <img class="cloudbig" src="image/cloud.png"/> <img class="cloudImgbig"
+                                                                                      src="image/cloudImg1.png"/></li>
+            <li>Создание интернет-магазина<img class="cloudsmall" src="image/cloud.png"/> <img class="cloudImgsmall"
+                                                                                               src="image/cloudImg2.png"/>
+            </li>
+            <li>Сайт визитка<img class="cloudbig" src="image/cloud.png"/> <img class="cloudImgbig"
+                                                                               src="image/cloudImg3.png"/></li>
+            <li>Интернет портал<img class="cloudsmall" src="image/cloud.png"/> <img class="cloudImgsmall"
+                                                                                    src="image/cloudImg4.png"/></li>
         </ul>
     </div>
 </div>
@@ -102,10 +108,6 @@
 <div class="fifth" id="fifth">
     <div class="container">
         <h5>Наши проекты</h5>
-
-        <script>
-
-        </script>
 
         <div id="pslider" class="owl-carousel owl-theme">
             <a class="gallery" data-lightbox="image" href="image/project1.png"><img src="image/project1.png"/></a>
@@ -243,7 +245,7 @@
                         <td><input name="email" id="email" type="text" placeholder="E-mail"></td>
                         <td><input name="phone" id="phone" type="text" placeholder="Телефон"></td>
                     </tr>
-                    <br>
+
                     <tr>
                         <td colspan="2"><textarea name="message" cols="45" rows="5"
                                                   placeholder="Ваши пожелания"></textarea></td>

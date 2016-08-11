@@ -54,8 +54,10 @@ textarea::-webkit-input-placeholder {
     font-style: normal;
 }
 
-#logo {
+#logo img {
 
+    width: 30%;
+    height: auto;
     float: left;
 
 }
@@ -97,6 +99,7 @@ body {
     width: 100%;
     height: 100%;
     background: url(../image/BodyFon.png) no-repeat top center #f1fcfb;
+    background-size: contain;
 
 }
 
@@ -145,11 +148,12 @@ body {
 
 .first {
 
-    position: static;
+    display: block;
+    position: relative;
     margin: 0 auto;
     text-align: center;
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: auto;
 }
 
 .first h1 {
@@ -165,6 +169,12 @@ body {
     font-size: 3em;
 }
 
+.second p {
+
+    height: 100px;
+
+}
+
 .second {
 
     list-style: none;
@@ -174,7 +184,7 @@ body {
 
 .second li {
 
-    margin-top: 15%;
+    margin-top: 10%;
     font-family: 'Franklin Gothic Book';
     width: calc(100% / 3);
     float: left;
@@ -194,14 +204,17 @@ body {
 
 .second li:nth-child(1) span {
     background: url(../image/forma2.png) 50% 50% no-repeat;
+    background-size: 50% auto, contain;
 }
 
 .second li:nth-child(2) span {
     background: url(../image/forma1.png) 50% 50% no-repeat;
+    background-size: 50% auto, contain;
 }
 
 .second li:nth-child(3) span {
     background: url(../image/forma3.png) 50% 50% no-repeat;
+    background-size: 50% auto, contain;
 }
 
 .third {
@@ -212,6 +225,7 @@ body {
     overflow-x: hidden;
     background-size: cover;
     background: url(../image/thirdFon.png) no-repeat top center #f1fcfb;
+
 
 }
 
@@ -246,7 +260,7 @@ body {
     border-left: 14px solid #94c3bc;
     font-family: 'Taurus-Normal';
     font-size: 3.1em;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 5%;
 }
 
@@ -274,19 +288,57 @@ body {
     vertical-align: middle;
 }
 
+.fouth .cloudbig {
+
+    width: 30%;
+    height: auto;
+    position: absolute;
+    display: block;
+    top: -10%;
+    left: 90%;
+    z-index: 2;
+}
+
+.fouth .cloudImgbig {
+
+    margin: 6% 10%;
+    width: 10%;
+    height: auto;
+    position: absolute;
+    display: block;
+    top: -10%;
+    left: 90%;
+    z-index: 3;
+}
+
+.fouth .cloudsmall {
+
+    width: 40%;
+    height: auto;
+    position: absolute;
+    display: block;
+    top: -10%;
+    left: 80%;
+    z-index: 2;
+}
+
+.fouth .cloudImgsmall {
+
+    margin: 8% 4%;
+    width: 12%;
+    height: auto;
+    position: absolute;
+    display: block;
+    top: -5%;
+    left: 90%;
+    z-index: 3;
+}
+
 .fouth ul li:nth-child(1) {
     background: #94c3bc;
     width: 82%;
 }
 
-.fouth ul li:nth-child(1) b {
-    height: 225px;
-    width: 307px;
-    position: absolute;
-    background: url(../image/cloudImg1.png) 50% 50% no-repeat, url(../image/cloud.png) no-repeat;
-    top: -10%;
-    left: 90%;
-}
 
 .fouth ul li:nth-child(1) span {
     padding-right: 245px;
@@ -297,15 +349,6 @@ body {
     width: 59%;
 }
 
-.fouth ul li:nth-child(2) b {
-    height: 225px;
-    width: 307px;
-    position: absolute;
-    background: url(../image/cloudImg2.png) 50% 50% no-repeat, url(../image/cloud.png) no-repeat;
-    top: -10%;
-    left: 90%;
-    z-index: 2;
-}
 
 .fouth ul li:nth-child(2) span {
     padding-right: 109px;
@@ -316,14 +359,6 @@ body {
     width: 79%;
 }
 
-.fouth ul li:nth-child(3) b {
-    height: 225px;
-    width: 307px;
-    position: absolute;
-    background: url(../image/cloudImg3.png) 50% 50% no-repeat, url(../image/cloud.png) no-repeat;
-    top: -10%;
-    left: 90%;
-}
 
 .fouth ul li:nth-child(3) span {
     padding-right: 272px;
@@ -332,15 +367,6 @@ body {
 .fouth ul li:nth-child(4) {
     background: #2f645e;
     width: 62%;
-}
-
-.fouth ul li:nth-child(4) b {
-    height: 225px;
-    width: 307px;
-    position: absolute;
-    background: url(../image/cloudImg4.png) 50% 50% no-repeat, url(../image/cloud.png) no-repeat;
-    top: -10%;
-    left: 90%;
 }
 
 .fouth ul li:nth-child(4) span {
@@ -359,7 +385,7 @@ body {
     font-size: 3.1em;
     border-left: 14px solid #94c3bc;
     padding-left: 15px;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .fifth .technology table tr th h5 {
@@ -783,6 +809,60 @@ body {
 
 }
 
+@media screen and (max-width: 800px) {
+
+    body {
+
+        font-size: 0.7em;
+
+    }
+
+    .first {
+
+        height: 100px;
+
+    }
+
+    .second {
+
+        height: 250px;
+
+    }
+
+    .second ul {
+
+        text-align: right;
+
+    }
+
+    .second p {
+
+        height: 60px;
+    }
+
+    .second li {
+
+        font-family: 'Franklin Gothic Book';
+        width: 33%;
+        height: auto;
+        text-align: center;
+        font-size: 2.0em;
+    }
+
+    .second li span {
+
+        margin-top: 20%;
+        display: block;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 0px 3px #cee5dc;
+    }
+
+}
+
+
+
 @media screen and (max-width: 510px) {
 
     .container {
@@ -862,22 +942,6 @@ body {
         box-shadow: 0px 0px 0px 3px #cee5dc;
     }
 
-    .second li:nth-child(1) span {
-
-        background: url(../image/forma2.png) 50% 50% no-repeat;
-        background-size: 50% 50%;
-    }
-
-    .second li:nth-child(2) span {
-
-        background: url(../image/forma1.png) 50% 50% no-repeat;
-        background-size: 50% 50%;
-    }
-
-    .second li:nth-child(3) span {
-        background: url(../image/forma3.png) 50% 50% no-repeat;
-        background-size: 50% 50%;
-    }
 
     .fouth {
         padding-bottom: 150px;
@@ -891,106 +955,50 @@ body {
 
     }
 
-    .fouth ul {
-        list-style: none;
-    }
+    .fouth .cloudbig {
 
-    .fouth ul li {
+        width: 30%;
+        height: auto;
+        position: absolute;
         display: block;
-        font-family: 'TFFFranklinGothicDemi';
-        font-size: 5.0em;
-        color: #ffffff;
-        border-radius: 28px;
-        position: relative;
-        padding: 35px 0 35px 60px;
-    }
-
-    .fouth ul li span {
-        font-size: 0.6em;
-        color: #ffffff;
-        border-top: 3px solid #abd0ca;
-        border-bottom: 3px solid #abd0ca;
-        padding: 22px 0px 18px 0px;
-        margin-left: 50px;
-        vertical-align: middle;
-    }
-
-    .fouth ul li:nth-child(1) {
-        background: #94c3bc;
-        width: 82%;
-    }
-
-    .fouth ul li:nth-child(1) b {
-
-        height: 100px;
-        width: 150px;
-        position: absolute;
-        background: url(../image/cloudImg1.png) 50% 50% no-repeat, url(../image/cloud.png) no-repeat;
-        background-size: 50% 50%, contain;
         top: -10%;
-        left: 80%;
+        left: 70%;
+        z-index: 2;
     }
 
-    .fouth ul li:nth-child(1) span {
-        padding-right: 245px;
-    }
+    .fouth .cloudImgbig {
 
-    .fouth ul li:nth-child(2) {
-        background: #2f645e;
-        width: 59%;
-    }
-
-    .fouth ul li:nth-child(2) b {
-        height: 100px;
-        width: 150px;
+        margin: 6% 10%;
+        width: 10%;
+        height: auto;
         position: absolute;
-        background: url(../image/cloudImg2.png) 50% 50% no-repeat, url(../image/cloud.png) no-repeat;
-        background-size: 50% 50%, contain;
+        display: block;
+        top: -10%;
+        left: 70%;
+        z-index: 3;
+    }
+
+    .fouth .cloudsmall {
+
+        width: 40%;
+        height: auto;
+        position: absolute;
+        display: block;
         top: -10%;
         left: 80%;
         z-index: 2;
     }
 
-    .fouth ul li:nth-child(2) span {
-        padding-right: 109px;
-    }
+    .fouth .cloudImgsmall {
 
-    .fouth ul li:nth-child(3) {
-        background: #94c3bc;
-        width: 79%;
-    }
-
-    .fouth ul li:nth-child(3) b {
-        height: 100px;
-        width: 150px;
+        margin: 8% 4%;
+        width: 12%;
+        height: auto;
         position: absolute;
-        background: url(../image/cloudImg3.png) 50% 50% no-repeat, url(../image/cloud.png) no-repeat;
-        background-size: 50% 50%, contain;
-        top: -10%;
-        left: 80%;
-    }
-
-    .fouth ul li:nth-child(3) span {
-        padding-right: 272px;
-    }
-
-    .fouth ul li:nth-child(4) {
-        background: #2f645e;
-        width: 62%;
-    }
-
-    .fouth ul li:nth-child(4) b {
-        height: 100px;
-        width: 150px;
-        position: absolute;
-        background: url(../image/cloudImg4.png) 50% 50% no-repeat, url(../image/cloud.png) no-repeat;
-        background-size: 50% 50%, contain;
-        top: -10%;
-        left: 80%;
-    }
-
-    .fouth ul li:nth-child(4) span {
-        padding-right: 138px;
+        display: block;
+        top: -5%;
+        left: 90%;
+        z-index: 3;
     }
 
     .fifth {
@@ -1017,6 +1025,8 @@ body {
 
     .seventh textarea {
 
+        display: block;
+        float: left;
         width: 320px;
 
     }
@@ -1029,14 +1039,54 @@ body {
         background-color: #94c3bc;
         width: 320px;
         height: 400px;
-        float: right;
+        float: left;
 
     }
 
+    .seventh table {
+
+        float: left;
+        display: block;
+        width: 50px;
+        border-collapse: collapse;
+        border-spacing: 0;
+
+    }
+
+    .seventh td[data-th]:before {
+        content: attr(data-th);
+        float: left;
+    }
+
+    .seventh thead th:not(:first-child) {
+        display: none;
+    }
+
+    .seventh table th {
+
+        float: left;
+        display: block;
+
+    }
+
+    .seventh table tr {
+
+        clear: both;
+        display: block;
+        float: left;
+
+    }
     .seventh table td {
 
+        clear: both;
+        float: left;
+        margin-top: 20px;
         display: block;
-        white-space: nowrap;
+
+    }
+
+    .seventh td > div {
+        float: right;
     }
 
 }

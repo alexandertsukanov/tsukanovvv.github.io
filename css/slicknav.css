@@ -112,7 +112,10 @@
 }
 
 .slicknav_menu {
+
+    z-index: 4;
     width: 100%;
+    float: left;
     position: fixed;
     font-size: 16px;
     box-sizing: border-box;

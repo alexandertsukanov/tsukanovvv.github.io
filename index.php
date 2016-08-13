@@ -83,9 +83,9 @@
         <h5>О Компании</h5>
 
         <p>Oriole Ltd. является Восточно-Европейской веб-студией. Мы находимся в городе Харькове, Украина. Кредо
-            компании
+            компании -
             предоставлять качественные веб-сайты в срок, с учетом изменяющийся каждый день тенденций. Мы выполняем
-            полный цикл работ по созданию веб-проектов различного уровня сложности: разработка промо-сайтов,
+            полный цикл работ по созданию веб-проектов различного уровня сложности: разработка веб-сайтов, промо-сайтов,
             корпоративных сайтов и интернет-магазинов. Каждый из проектов не только работа, которая будет
             выполнена - это отдельный шедевр, который мы рисуем и создаем вместе с каждым заказчиком. </p>
     </div>
@@ -267,10 +267,63 @@
     </div>
 
 </div>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-82406565-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<!— Yandex.Metrika counter —>
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function () {
+            try {
+                w.yaCounter39039330 = new Ya.Metrika({
+                    id: 39039330,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true
+                });
+            } catch (e) {
+            }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () {
+                n.parentNode.insertBefore(s, n);
+            };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else {
+            f();
+        }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/39039330" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!— /Yandex.Metrika counter —>
+
+
 <script src="js/js.js"></script>
 <script src="js/jquery/jquery.validate.js"></script>
 <script src="js/jquery/messages_ru.js"></script>
-
 <script src="js/jquery/jquery.slicknav.js"></script>
 <script src="js/jquery/inputmask/inputmask.js"></script>
 <script src="js/jquery/inputmask/jquery.inputmask.js"></script>

@@ -13,7 +13,7 @@ $(document).ready(function () {
     $("#phone").inputmask("+99(999)999-99-99")
     $("#name").inputmask("aaaaaaaaaaaaaa", {placeholder: " "})
     $("#surname").inputmask("aaaaaaaaaaaaaa", {placeholder: " "})
-    $("#email").inputmask("email", {placeholder: " "})
+
 })
 
 
@@ -32,6 +32,7 @@ $(document).ready(function () {
                 required: true
             },
             email: {
+                email: true,
                 required: true
             },
             message: {

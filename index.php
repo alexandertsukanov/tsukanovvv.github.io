@@ -7,9 +7,9 @@
     <meta name="Keywords" content="">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Oriole Ltd - разработка и создание сайтов </title>
-    <meta name="description" lang="ru"
-          content="Веб-студия Oriole Ltd предоставляет услуги по разработке веб-сайтов, промо-сайтов, корпоративных сайтов, интернет-магазинов и веб-приложений"/>
+    <title>Oriole Ltd - development of web sites</title>
+    <meta name="description" lang="en"
+          content="Oriole Ltd is an Eastern European web-studio provides services for the development of web- sites, promo-sites, corporate websites, online stores and web applications"/>
 
 
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="all">
@@ -30,7 +30,7 @@
 
 <body>
 
-<a href="indexen"> <img src="image/Blank.png" id="flag" class="flag flag-gb"/> </a>
+<a href="ru"> <img src="image/Blank.png" class="flag flag-ru"/> </a>
 
 <ul onclick="" id="menu_m">
     <li onclick="$.scrollTo( $('.third'), {duration:1500} );"><a href="#">About</a></li>
@@ -41,9 +41,9 @@
 
 <div class="menu">
     <ul>
-        <li onclick="   $.scrollTo( $('.third'), {duration:1500} );"><a href="#"> О компании </a></li>
-        <li onclick="	$.scrollTo( $('.fifth'), {duration:1500} );"><a href="#">Наши проекты</a></li>
-        <li onclick="	$.scrollTo( $('.seventh'), {duration:1500} );"><a href="#">Контакты</a></li>
+        <li onclick="$.scrollTo( $('.third'), {duration:1500} );"><a href="#">About us</a></li>
+        <li onclick="$.scrollTo( $('.fifth'), {duration:1500} );"><a href="#">Our Projects</a></li>
+        <li onclick="$.scrollTo( $('.seventh'), {duration:1500} );"><a href="#">Contacts</a></li>
     </ul>
 </div>
 
@@ -66,15 +66,15 @@
 
 
         <li>
-            <p> Креативный <br>дизайн</p>
+            <p>Creative <br>design</p>
             <span></span>
         </li>
         <li>
-            <p>Разработка от идеи<br> до реализации</p>
+            <p>Providing from idea<br> to realization</p>
             <span></span>
         </li>
         <li>
-            <p> Тех. поддержка<br> 12 месяцев</p>
+            <p> Tech. support for<br> 12 months</p>
             <span></span>
         </li>
         <div class="clear"></div>
@@ -82,29 +82,30 @@
 </div>
 <div class="third">
     <div class="container">
-        <h5>О Компании</h5>
+        <h5>About us</h5>
 
-        <p>Oriole Ltd. является Восточно-Европейской веб-студией. Мы находимся в городе Харькове, Украина. Кредо
-            компании -
-            предоставлять качественные веб-сайты в срок, с учетом изменяющийся каждый день тенденций. Мы выполняем
-            полный цикл работ по созданию веб-проектов различного уровня сложности: разработка веб-сайтов, промо-сайтов,
-            корпоративных сайтов и интернет-магазинов. Каждый из проектов не только работа, которая будет
-            выполнена - это отдельный шедевр, который мы рисуем и создаем вместе с каждым заказчиком. </p>
+        <p>Oriole is an Eastern European web-studio located in Kharkiv, Ukraine. We are a future-oriented company which
+            provides quality web solutions todays in competitive and changing environment. Exceptional team with widely
+            varied approach and superior quality make you fell the benefits of working with us. That is why you can have
+            peace of mind about your technical needs and allow you to focus on your core business That is why you can
+            have peace of mind about technology and focus on your core business, because we aim
+            to provide you with the best innovative web solutions in a timely manner. To put it simple, we make things
+            work for you! </p>
     </div>
 </div>
 <div class="fouth">
     <div class="container">
-        <h5>Услуги</h5>
+        <h5>Our services</h5>
         <ul>
-            <li>Корпоративный сайт <img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
-                                                                                   src="image/cloudImg1.png"/></li>
-            <li>Сайт визитка<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
-                                                                            src="image/cloudImg2.png"/>
+            <li>Corporate site <img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
+                                                                               src="image/cloudImg1.png"/></li>
+            <li>Business site<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
+                                                                             src="image/cloudImg2.png"/>
             </li>
-            <li>Создание интернет-магазина<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
-                                                                                          src="image/cloudImg3.png"/>
+            <li>Internet-market<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
+                                                                               src="image/cloudImg3.png"/>
             </li>
-            <li>Интернет портал<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
+            <li>Internet portal<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
                                                                                src="image/cloudImg4.png"/></li>
         </ul>
     </div>
@@ -112,7 +113,7 @@
 <div class="clear"></div>
 <div class="fifth" id="fifth">
     <div class="container">
-        <h5>Наши проекты</h5>
+        <h5>Our projects</h5>
 
         <div id="pslider" class="owl-carousel owl-theme">
             <a class="gallery" data-lightbox="image" href="image/project1.png"><img src="image/project1.png"/></a>
@@ -129,7 +130,7 @@
 
             <table>
                 <tr>
-                    <th colspan="3"><h5>Технологии</h5></th>
+                    <th colspan="3"><h5>Technology Stack</h5></th>
 
                 </tr>
 
@@ -222,14 +223,14 @@
 
 <div class="seventh">
     <div class="container">
-        <h5> Контакты</h5>
+        <h5> Contacts</h5>
 
         <div class="contacts">
 
 
             <h6>Oriole Ltd.</h6>
 
-            <p> Офисный центр "AVALON", улица Алчевских 31, Харьков</p>
+            <p> Business center "AVALON", Alchevskih str. 31, Kharkiv</p>
 
             <a id="skype" href="skype:oriole-software?call"> <i class="fa fa-skype" aria-hidden="true"></i></a>
             <a id="facebook" href="http://www.facebook.com/oriolesoftware/"><i class="fa fa-facebook-official"
@@ -243,20 +244,20 @@
             <form id="feedback" action="mail/mail" method="post">
                 <table>
                     <tr>
-                        <td><input name="name" id="name" type="text" placeholder="Имя"></td>
-                        <td><input name="surname" id="surname" type="text" placeholder="Фамилия"></td>
+                        <td><input name="name" id="name" type="text" placeholder="Name"></td>
+                        <td><input name="surname" id="surname" type="text" placeholder="Surname"></td>
                     </tr>
                     <tr>
                         <td><input name="email" id="email" type="text" placeholder="E-mail"></td>
-                        <td><input name="phone" id="phone" type="text" placeholder="Телефон"></td>
+                        <td><input name="phone" id="phone" type="text" placeholder="Phone"></td>
                     </tr>
 
                     <tr>
                         <td colspan="2"><textarea name="message" cols="45" rows="5"
-                                                  placeholder="Ваши пожелания"></textarea></td>
+                                                  placeholder="Your wishes or Technical task"></textarea></td>
                     </tr>
                     <tr>
-                        <td><input id="submit" type="submit" name="submit" value="Отправить"></td>
+                        <td><input id="submit" type="submit" name="submit" value="Send"></td>
                     </tr>
                 </table>
             </form>
@@ -326,7 +327,6 @@
 
 <script src="js/js.js"></script>
 <script src="js/jquery/jquery.validate.js"></script>
-<script src="js/jquery/messages_ru.js"></script>
 <script src="js/jquery/jquery.slicknav.js"></script>
 <script src="js/jquery/inputmask/inputmask.js"></script>
 <script src="js/jquery/inputmask/jquery.inputmask.js"></script>

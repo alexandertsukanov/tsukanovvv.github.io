@@ -86,8 +86,7 @@
 
         <p>Oriole is an Eastern European web-studio located in Kharkiv, Ukraine. We are a future-oriented company which
             provides quality web solutions todays in competitive and changing environment. Exceptional team with widely
-            varied approach and superior quality make you fell the benefits of working with us. That is why you can have
-            peace of mind about your technical needs and allow you to focus on your core business That is why you can
+            varied approach and superior quality make you fell the benefits of working with us. That is why you can
             have peace of mind about technology and focus on your core business, because we aim
             to provide you with the best innovative web solutions in a timely manner. To put it simple, we make things
             work for you! </p>

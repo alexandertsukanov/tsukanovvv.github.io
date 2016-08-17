@@ -7,9 +7,9 @@
     <meta name="Keywords" content="">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Oriole Ltd - разработка и создание сайтов </title>
+    <title>Oriole Ltd - Web Solutions</title>
     <meta name="description" lang="ru"
-          content="Веб-студия Oriole Ltd предоставляет услуги по разработке веб-сайтов, промо-сайтов, корпоративных сайтов, интернет-магазинов и веб-приложений"/>
+          content="Oriole Ltd предоставляет услуги по разработке веб-сайтов, промо-сайтов, корпоративных сайтов, интернет-магазинов и веб-приложений"/>
 
 
     <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" media="all">
@@ -33,21 +33,21 @@
 <a href="/"> <img src="../image/Blank.png" id="flag" class="flag flag-gb"/> </a>
 
 <ul onclick="" id="menu_m">
-    <li onclick="$.scrollTo( $('.third'), {duration:1500} );"><a href="#">About</a></li>
-    <li onclick="$.scrollTo( $('.fifth'), {duration:1500} );"><a href="#">Our projects</a></li>
-    <li onclick="$.scrollTo( $('.seventh'), {duration:1500} );"><a href="#">Contacts</a></li>
+    <li onclick="$.scrollTo( $('.third'), {duration:1000} );"><a href="#">About</a></li>
+    <li onclick="$.scrollTo( $('.fifth'), {duration:1000} );"><a href="#">Our projects</a></li>
+    <li onclick="$.scrollTo( $('.seventh'), {duration:1000} );"><a href="#">Contacts</a></li>
 </ul>
 
 
 <div class="menu">
     <ul>
-        <li onclick="   $.scrollTo( $('.third'), {duration:1500} );"><a href="#">О компании</a></li>
-        <li onclick="	$.scrollTo( $('.fifth'), {duration:1500} );"><a href="#">Наши проекты</a></li>
-        <li onclick="	$.scrollTo( $('.seventh'), {duration:1500} );"><a href="#">Контакты</a></li>
+        <li onclick="   $.scrollTo( $('.third'), {duration:1000} );"><a href="#">О компании</a></li>
+        <li onclick="	$.scrollTo( $('.fifth'), {duration:1000} );"><a href="#">Наши проекты</a></li>
+        <li onclick="	$.scrollTo( $('.seventh'), {duration:1000} );"><a href="#">Контакты</a></li>
     </ul>
 </div>
 
-<a id="logo" href="index"><img src="../image/MainLogo.png"></a>
+<a id="logo" href="/ru"><img src="../image/MainLogo.png"></a>
 
 
 <header>
@@ -88,6 +88,7 @@
             компании -
             предоставлять качественные веб-сайты в срок, с учетом изменяющийся каждый день тенденций. Мы выполняем
             полный цикл работ по созданию веб-проектов различного уровня сложности: разработка веб-сайтов, промо-сайтов,
+            веб-приложений,
             корпоративных сайтов и интернет-магазинов. Каждый из проектов не только работа, которая будет
             выполнена - это отдельный шедевр, который мы рисуем и создаем вместе с каждым заказчиком. </p>
     </div>
@@ -96,16 +97,16 @@
     <div class="container">
         <h5>Услуги</h5>
         <ul>
-            <li>Корпоративный сайт <img class="cloud" src="../image/cloud.png"/> <img class="cloudImg"
+            <li>Корпоративный сайт<img class="cloud" src="../image/cloud.png"/> <img class="cloudImg"
                                                                                       src="../image/cloudImg1.png"/>
             </li>
             <li>Сайт визитка<img class="cloud" src="../image/cloud.png"/> <img class="cloudImg"
                                                                                src="../image/cloudImg2.png"/>
             </li>
-            <li>Создание интернет-магазина<img class="cloud" src="../image/cloud.png"/> <img class="cloudImg"
+            <li>Интернет-магазин<img class="cloud" src="../image/cloud.png"/> <img class="cloudImg"
                                                                                              src="../image/cloudImg3.png"/>
             </li>
-            <li>Интернет портал<img class="cloud" src="../image/cloud.png"/> <img class="cloudImg"
+            <li>Веб-приложение<img class="cloud" src="../image/cloud.png"/> <img class="cloudImg"
                                                                                   src="../image/cloudImg4.png"/></li>
         </ul>
     </div>

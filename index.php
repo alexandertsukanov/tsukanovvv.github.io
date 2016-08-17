@@ -7,9 +7,9 @@
     <meta name="Keywords" content="">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Oriole Ltd - development of web sites</title>
+    <title>Oriole Ltd - Web Solutions</title>
     <meta name="description" lang="en"
-          content="Oriole Ltd is an Eastern European web-studio provides services for the development of web- sites, promo-sites, corporate websites, online stores and web applications"/>
+          content="Oriole Ltd is an Eastern European IT company provides services for the development of web- sites, promo-sites, corporate websites, online stores and web applications"/>
 
 
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="all">
@@ -33,21 +33,21 @@
 <a href="ru"> <img src="image/Blank.png" class="flag flag-ru"/> </a>
 
 <ul onclick="" id="menu_m">
-    <li onclick="$.scrollTo( $('.third'), {duration:1500} );"><a href="#">About</a></li>
-    <li onclick="$.scrollTo( $('.fifth'), {duration:1500} );"><a href="#">Our projects</a></li>
-    <li onclick="$.scrollTo( $('.seventh'), {duration:1500} );"><a href="#">Contacts</a></li>
+    <li onclick="$.scrollTo( $('.third'), {duration:1000} );"><a href="#">About</a></li>
+    <li onclick="$.scrollTo( $('.fifth'), {duration:1000} );"><a href="#">Our projects</a></li>
+    <li onclick="$.scrollTo( $('.seventh'), {duration:1000} );"><a href="#">Contacts</a></li>
 </ul>
 
 
 <div class="menu">
     <ul>
-        <li onclick="$.scrollTo( $('.third'), {duration:1500} );"><a href="#">About us</a></li>
-        <li onclick="$.scrollTo( $('.fifth'), {duration:1500} );"><a href="#">Our Projects</a></li>
-        <li onclick="$.scrollTo( $('.seventh'), {duration:1500} );"><a href="#">Contacts</a></li>
+        <li onclick="$.scrollTo( $('.third'), {duration:1000} );"><a href="#">About us</a></li>
+        <li onclick="$.scrollTo( $('.fifth'), {duration:1000} );"><a href="#">Our Projects</a></li>
+        <li onclick="$.scrollTo( $('.seventh'), {duration:1000} );"><a href="#">Contacts</a></li>
     </ul>
 </div>
 
-<a id="logo" href="index"><img src="image/MainLogo.png"></a>
+<a id="logo" href="/"><img src="image/MainLogo.png"></a>
 
 
 <header>
@@ -84,19 +84,20 @@
     <div class="container">
         <h5>About us</h5>
 
-        <p>Oriole is an Eastern European web-studio located in Kharkiv, Ukraine. We are a future-oriented company which
-            provides quality web solutions todays in competitive and changing environment. Exceptional team with widely
+        <p>Oriole is an Eastern European IT company located in Kharkiv, Ukraine. We
+            provide quality web solutions today's in competitive and changing environment. Exceptional team with widely
             varied approach and superior quality make you fell the benefits of working with us. That is why you can
             have peace of mind about technology and focus on your core business, because we aim
-            to provide you with the best innovative web solutions in a timely manner. To put it simple, we make things
-            work for you! </p>
+            to provide you with the best innovative web solutions in a timely manner. We carry about full cycle of works
+            on creation of web projects at different levels of difficulty: the development of Web sites, promo-sites,
+            web applications, corporate sites and online stores.</p>
     </div>
 </div>
 <div class="fouth">
     <div class="container">
         <h5>Our services</h5>
         <ul>
-            <li>Corporate site <img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
+            <li>Corporate site<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
                                                                                src="image/cloudImg1.png"/></li>
             <li>Business site<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
                                                                              src="image/cloudImg2.png"/>
@@ -104,7 +105,7 @@
             <li>Internet-market<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
                                                                                src="image/cloudImg3.png"/>
             </li>
-            <li>Internet portal<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
+            <li>Web application<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
                                                                                src="image/cloudImg4.png"/></li>
         </ul>
     </div>

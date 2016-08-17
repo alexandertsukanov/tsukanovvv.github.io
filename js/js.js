@@ -1,5 +1,4 @@
-$("#one").hide(0).delay(200).fadeIn(3000)
-$("#two").hide(0).delay(2000).fadeIn(3000)
+
 
 
 $(function () {

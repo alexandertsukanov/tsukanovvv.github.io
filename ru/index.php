@@ -131,7 +131,7 @@
 
             <table>
                 <tr>
-                    <th colspan="3"><h5>Technology Stack</h5></th>
+                    <th colspan="3"><h5>Технологии</h5></th>
 
                 </tr>
 

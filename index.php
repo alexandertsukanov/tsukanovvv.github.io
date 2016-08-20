@@ -211,7 +211,7 @@
             <a id="facebook" href="http://www.facebook.com/oriolesoftware/"><i class="fa fa-facebook-official"
                                                                                aria-hidden="true"></i></a>
             <a id="vk" href="http://new.vk.com/oriole.software"><i class="fa fa-vk" aria-hidden="true"></i></a>
-            <a href="mailto:oriole.software@gmail.com"><i class="fa fa-envelope" aria-hidden="true">oriole.software@gmail.com</i>
+            <a href="mailto:contact@oriole-software.com"><i class="fa fa-envelope" aria-hidden="true">contact@oriole-software.com</i>
             </a>
         </div>
 

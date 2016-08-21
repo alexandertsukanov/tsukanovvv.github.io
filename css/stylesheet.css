@@ -711,16 +711,17 @@ body {
 .seventh .contacts a:nth-child(5) {
 
     margin-left: 2%;
-
+    margin-right: 5%;
     font-size: 2em;
 
 }
 
-.seventh .contacts a:nth-child(5) {
+.seventh .contacts a:nth-child(6) {
 
-    margin-right: 5%;
-
-    font-size: 2em;
+    margin: 1%;
+    float: right;
+    position: relative;
+    display: table;
 
 }
 

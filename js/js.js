@@ -1,12 +1,6 @@
 
 
 
-$(function () {
-    $(document).ready(function () {
-        $('#menu_m').slicknav();
-    });
-});
-
 $(document).ready(function () {
 
     $("#phone").inputmask("+99(999)999-99-99")

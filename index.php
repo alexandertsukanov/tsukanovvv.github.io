@@ -13,7 +13,6 @@
 
 
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="all">
-    <link rel="stylesheet" type="text/css" href="css/slicknav.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/owl/owl.carousel.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/owl/owl.theme.default.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/fontawesome/font-awesome.css" media="all">
@@ -31,12 +30,6 @@
 <body>
 
 <a href="ru"> <img src="image/Blank.png" class="flag flag-ru"/> </a>
-
-<ul onclick="" id="menu_m">
-    <li onclick="$.scrollTo( $('.third'), {duration:1000} );"><a href="#">About</a></li>
-    <li onclick="$.scrollTo( $('.fifth'), {duration:1000} );"><a href="#">Our projects</a></li>
-    <li onclick="$.scrollTo( $('.seventh'), {duration:1000} );"><a href="#">Contacts</a></li>
-</ul>
 
 
 <div class="menu">
@@ -88,9 +81,9 @@
             provide quality web solutions today's in competitive and changing environment. Exceptional team with widely
             varied approach and superior quality make you fell the benefits of working with us. That is why you can
             have peace of mind about technology and focus on your core business, because we aim
-            to provide you with the best innovative web solutions in a timely manner. We carry about full cycle of works
-            on creation of web projects at different levels of difficulty: the development of Web sites, promo-sites,
-            web applications, corporate sites and online stores.</p>
+            to provide you with the best innovative web solutions in a timely manner.We develop the full spectrum of web
+            projects at all levels of complexity: the development of Web sites, promo-sites, web applications, corporate
+            sites and online stores.</p>
     </div>
 </div>
 <div class="fouth">
@@ -102,7 +95,7 @@
             <li>Business site<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
                                                                              src="image/cloudImg2.png"/>
             </li>
-            <li>Internet-market<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
+            <li>Online store<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
                                                                                src="image/cloudImg3.png"/>
             </li>
             <li>Web application<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"

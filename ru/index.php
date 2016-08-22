@@ -13,7 +13,6 @@
 
 
     <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" media="all">
-    <link rel="stylesheet" type="text/css" href="../css/slicknav.css" media="all">
     <link rel="stylesheet" type="text/css" href="../css/owl/owl.carousel.css" media="all">
     <link rel="stylesheet" type="text/css" href="../css/owl/owl.theme.default.css" media="all">
     <link rel="stylesheet" type="text/css" href="../css/fontawesome/font-awesome.css" media="all">
@@ -31,12 +30,6 @@
 <body>
 
 <a href="/"> <img src="../image/Blank.png" id="flag" class="flag flag-gb"/> </a>
-
-<ul onclick="" id="menu_m">
-    <li onclick="$.scrollTo( $('.third'), {duration:1000} );"><a href="#">About</a></li>
-    <li onclick="$.scrollTo( $('.fifth'), {duration:1000} );"><a href="#">Our projects</a></li>
-    <li onclick="$.scrollTo( $('.seventh'), {duration:1000} );"><a href="#">Contacts</a></li>
-</ul>
 
 
 <div class="menu">

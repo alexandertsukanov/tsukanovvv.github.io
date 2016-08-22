@@ -34,9 +34,9 @@
 
 <div class="menu">
     <ul>
-        <li onclick="$.scrollTo( $('.third'), {duration:1000} );"><a href="#">About us</a></li>
-        <li onclick="$.scrollTo( $('.fifth'), {duration:1000} );"><a href="#">Our Projects</a></li>
-        <li onclick="$.scrollTo( $('.seventh'), {duration:1000} );"><a href="#">Contacts</a></li>
+        <li onclick="$.scrollTo( $('.third'), {duration:1000} );"><a href="javascript:void(0)">About us</a></li>
+        <li onclick="$.scrollTo( $('.fifth'), {duration:1000} );"><a href="javascript:void(0)">Our Projects</a></li>
+        <li onclick="$.scrollTo( $('.seventh'), {duration:1000} );"><a href="javascript:void(0)">Contacts</a></li>
     </ul>
 </div>
 

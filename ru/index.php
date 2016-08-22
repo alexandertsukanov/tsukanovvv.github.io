@@ -34,9 +34,9 @@
 
 <div class="menu">
     <ul>
-        <li onclick="   $.scrollTo( $('.third'), {duration:1000} );"><a href="#">О компании</a></li>
-        <li onclick="	$.scrollTo( $('.fifth'), {duration:1000} );"><a href="#">Наши проекты</a></li>
-        <li onclick="	$.scrollTo( $('.seventh'), {duration:1000} );"><a href="#">Контакты</a></li>
+        <li onclick="   $.scrollTo( $('.third'), {duration:1000} );"><a href="javascript:void(0)">О компании</a></li>
+        <li onclick="	$.scrollTo( $('.fifth'), {duration:1000} );"><a href="javascript:void(0)">Наши проекты</a></li>
+        <li onclick="	$.scrollTo( $('.seventh'), {duration:1000} );"><a href="javascript:void(0)">Контакты</a></li>
     </ul>
 </div>
 

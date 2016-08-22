@@ -147,6 +147,7 @@ body {
 
 .first {
 
+    position: relative;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -174,6 +175,7 @@ body {
 }
 
 .second {
+
 
     list-style: none;
     height: 600px;
@@ -1112,6 +1114,13 @@ body {
     .fifth h5 {
 
         margin-top: 25%;
+    }
+
+    .fifth .technology img {
+
+        width: 70px;
+        height: 70px;
+
     }
 
     #gmap_canvas {

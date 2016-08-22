@@ -56,7 +56,9 @@ textarea::-webkit-input-placeholder {
 
 #logo img {
 
+    position: absolute;
     width: 30%;
+    top: 0%;
     height: auto;
     float: left;
 
@@ -148,8 +150,8 @@ body {
 .first {
 
     position: relative;
+    margin: 18% auto;
     display: block;
-    margin: 0 auto;
     text-align: center;
     height: 200px;
     width: auto;
@@ -176,15 +178,16 @@ body {
 
 .second {
 
-
+    margin-top: -7%;
+    position: relative;
     list-style: none;
-    height: 600px;
+    height: 500px;
 
 }
 
 .second li {
 
-    margin-top: 10%;
+    margin-top: 5%;
     font-family: 'Franklin Gothic Book';
     width: calc(100% / 3);
     float: left;
@@ -947,7 +950,6 @@ body {
 
     .first {
 
-        padding-top: 15%;
         width: 200px;
         height: 100px;
         text-align: center;
@@ -956,6 +958,7 @@ body {
 
     .second {
 
+        margin-top: -15%;
         height: 250px;
 
     }

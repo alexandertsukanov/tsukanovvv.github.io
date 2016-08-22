@@ -81,7 +81,8 @@
             provide quality web solutions today's in competitive and changing environment. Exceptional team with widely
             varied approach and superior quality make you fell the benefits of working with us. That is why you can
             have peace of mind about technology and focus on your core business, because we aim
-            to provide you with the best innovative web solutions in a timely manner.We develop the full spectrum of web
+            to provide you with the best innovative web solutions in a timely manner. We develop the full spectrum of
+            web
             projects at all levels of complexity: the development of Web sites, promo-sites, web applications, corporate
             sites and online stores.</p>
     </div>

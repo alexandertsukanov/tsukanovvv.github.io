@@ -262,4 +262,11 @@
 <script src="js/lightbox.js"></script>
 
 </body>
+
+<footer>
+
+    <p>Oriole Ltd. All rights reserved © 2016 </p>
+
+</footer>
+
 </html>

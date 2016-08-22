@@ -54,6 +54,24 @@ textarea::-webkit-input-placeholder {
     font-style: normal;
 }
 
+footer {
+
+    clear: both;
+    text-align: center;
+    background-color: rgb(35, 90, 84);
+    width: 100%;
+    height: 50px;
+
+}
+
+footer p {
+
+    padding-top: 1%;
+    font-size: 1.0em;
+    color: white;
+
+}
+
 #logo img {
 
     position: absolute;
@@ -516,108 +534,6 @@ body {
 
 }
 
-/*#slider {*/
-
-/*margin: 5%;*/
-
-/*}*/
-
-/*.member {*/
-
-/*background-color: #94c3bc;*/
-/*width: 340px;*/
-/*height: 550px;*/
-/*border-radius: 10px;*/
-
-/*}*/
-
-/*.member i {*/
-
-/*margin-left: auto;*/
-/*margin-right: auto;*/
-/*width: 1.5em;*/
-/*text-align: center;*/
-/*color: #2f655f;*/
-/*font-size: 70px;*/
-
-/*}*/
-
-/*.member i:hover {*/
-
-/*transition: all 0.5s;*/
-/*color: white;*/
-/*font-size: 70px;*/
-/*margin-left: auto;*/
-/*margin-right: auto;*/
-/*width: 1.5em;*/
-/*text-align: center;*/
-
-/*}*/
-
-/*.member h4 {*/
-
-/*font-family: "Franklin Gothic Book";*/
-/*display: block;*/
-/*margin: 10%;*/
-/*text-align: center;*/
-/*font-size: 30px;*/
-
-/*}*/
-
-/*.imgBox1 {*/
-
-/*margin: 0 auto;*/
-/*-webkit-filter: grayscale(100%);*/
-/*width: 182px;*/
-/*height: 300px;*/
-/*background: url(../image/members/1g.png) no-repeat center;*/
-/*transition: all 0.5s;*/
-/*}*/
-
-/*.imgBox1:hover {*/
-
-/*-webkit-filter: grayscale(0%);*/
-/*width: 182px;*/
-/*height: 300px;*/
-/*background: url(../image/members/1.png) no-repeat center;*/
-/*}*/
-
-/*.imgBox2 {*/
-
-/*margin: 0 auto;*/
-/*-webkit-filter: grayscale(100%);*/
-/*width: 182px;*/
-/*height: 300px;*/
-/*background: url(../image/members/3g.png) no-repeat center;*/
-/*transition: all 0.5s;*/
-/*}*/
-
-/*.imgBox2:hover {*/
-
-/*-webkit-filter: grayscale(0%);*/
-/*width: 182px;*/
-/*height: 300px;*/
-/*background: url(../image/members/3.png) no-repeat center;*/
-/*}*/
-
-/*.imgBox3 {*/
-
-/*margin: 0 auto;*/
-/*-webkit-filter: grayscale(100%);*/
-/*width: 182px;*/
-/*height: 300px;*/
-/*background: url(../image/members/2g.png) no-repeat center;*/
-/*transition: all 0.5s;*/
-/*}*/
-
-/*.imgBox3:hover {*/
-
-/*-webkit-filter: grayscale(0%);*/
-/*width: 182px;*/
-/*height: 300px;*/
-/*background: url(../image/members/2.png) no-repeat center;*/
-/*}*/
-
 .seventh {
 
     height: 1000px;
@@ -757,7 +673,7 @@ body {
 .seventh .map {
 
     overflow: hidden;
-    margin: 1% 0 0 0;
+    margin: 1% 0 0% 0%;
     border-radius: 10px;
     background-color: #94c3bc;
     width: 500px;
@@ -908,8 +824,9 @@ body {
 
     .seventh .map {
 
+        margin-top: 5%;
+        margin-bottom: 5%;
         overflow: hidden;
-        margin: 0 0 0 0;
         border-radius: 10px;
         background-color: #94c3bc;
         width: 500px;
@@ -1153,6 +1070,7 @@ body {
     .seventh .map {
 
         margin-top: 5%;
+        margin-bottom: 5%;
         overflow: hidden;
         border-radius: 10px;
         background-color: #94c3bc;

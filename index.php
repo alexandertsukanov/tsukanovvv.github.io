@@ -40,7 +40,7 @@
     </ul>
 </div>
 
-<a id="logo" href="/"><img src="image/MainLogo.png"></a>
+<a id="logo" href="/"><img onload="this.style.opacity='1';" src="image/MainLogo.png"></a>
 
 
 <header>
@@ -49,6 +49,7 @@
         <h1 id="one">Oriole</h1>
 
         <h2 id="two">Web Solutions</h2>
+
 
     </div>
 </header>

@@ -4,6 +4,9 @@
 #RewriteCond %{REQUEST_FILENAME} !-f
 #RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
+
+
+
 # кеширование в браузере на стороне пользователя
 <IfModule mod_expires.c>
 ExpiresActive On

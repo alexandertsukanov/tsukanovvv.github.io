@@ -74,11 +74,16 @@ footer p {
 
 #logo img {
 
+    opacity: 0;
+    -moz-transition: opacity 2s; /* Firefox 4 */
+    -webkit-transition: opacity 2s; /* Safari and Chrome */
+    -o-transition: opacity 2s;
+    transition: opacity 2s;
     position: absolute;
     width: 30%;
     top: 0%;
     height: auto;
-    float: left;
+
 
 }
 
@@ -167,6 +172,7 @@ body {
 
 .first {
 
+
     position: relative;
     margin: 18% auto;
     display: block;
@@ -177,15 +183,44 @@ body {
 
 .first h1 {
 
+    animation: blur 2s ease-out 1;
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
     font-family: 'Taurus-Normal', serif;
     color: #ffffff;
     font-size: 5em;
 }
 
 .first h2 {
+
+    opacity: 0;
+    animation-delay: 2s;
     font-family: 'Taurus-Normal', serif;
     color: #ffffff;
     font-size: 3em;
+}
+
+@keyframes blur {
+    from {
+        text-shadow: 0px 0px 10px #fff,
+        0px 0px 10px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #7B96B8,
+        0px 0px 150px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px -10px 100px #7B96B8,
+        0px -10px 100px #7B96B8;
+    }
 }
 
 .second p {

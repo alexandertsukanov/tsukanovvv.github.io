@@ -1,4 +1,10 @@
+$(document).ready(function () {
 
+
+    $('#two').delay(1000).animate({opacity: 1}, 2000)
+
+
+})
 
 
 $(document).ready(function () {

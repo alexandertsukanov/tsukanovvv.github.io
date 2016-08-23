@@ -40,7 +40,7 @@
     </ul>
 </div>
 
-<a id="logo" href="/ru"><img src="../image/MainLogo.png"></a>
+<a id="logo" href="/"><img onload="this.style.opacity='1';" src="../image/MainLogo.png"></a>
 
 
 <header>

@@ -7,11 +7,12 @@
     <meta name="Keywords" content="">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Oriole Ltd - Web Solutions</title>
+    <title>Oriole - Software Solutions</title>
     <meta name="description" lang="en"
-          content="Oriole Ltd is an Eastern European IT company provides services for the development of web- sites, promo-sites, corporate websites, online stores and web applications"/>
+          content="Oriole Software provides top-quality IT services to customers in many areas"/>
 
 
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/owl/owl.carousel.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/owl/owl.theme.default.css" media="all">
@@ -36,7 +37,7 @@
     <ul>
         <li onclick="$.scrollTo( $('.third'), {duration:1000} );"><a href="javascript:void(0)">About us</a></li>
         <li onclick="$.scrollTo( $('.fifth'), {duration:1000} );"><a href="javascript:void(0)">Our Projects</a></li>
-        <li onclick="$.scrollTo( $('.seventh'), {duration:1000} );"><a href="javascript:void(0)">Contacts</a></li>
+        <li onclick="$.scrollTo( $('.seventh'), {duration:1000} );"><a href="javascript:void(0)">Contact Us</a></li>
     </ul>
 </div>
 
@@ -48,7 +49,7 @@
     <div class="first">
         <h1 id="one">Oriole</h1>
 
-        <h2 id="two">Web Solutions</h2>
+        <h2 id="two">Software Solutions</h2>
 
 
     </div>
@@ -60,7 +61,7 @@
 
 
         <li>
-            <p>Creative <br>design</p>
+            <p>Creative <br>Approach</p>
             <span></span>
         </li>
         <li>
@@ -78,35 +79,34 @@
     <div class="container">
         <h5>About us</h5>
 
-        <p>Oriole is an Eastern European IT company located in Kharkiv, Ukraine. We
-            provide quality web solutions today's in competitive and changing environment. Exceptional team with widely
+        <p>Oriole is an Eastern European IT company located in Kharkiv - the heart of the IT industry in Ukraine. We
+            provide quality software solutions today's in competitive and changing environment. Exceptional team with
+            widely
             varied approach and superior quality make you fell the benefits of working with us. That is why you can
             have peace of mind about technology and focus on your core business, because we aim
             to provide you with the best innovative web solutions in a timely manner. We develop the full spectrum of
-            web
-            projects at all levels of complexity: the development of Web sites, promo-sites, web applications, corporate
-            sites and online stores.</p>
+            projects at all levels of complexity.</p>
     </div>
 </div>
 <div class="fouth">
     <div class="container">
         <h5>Our services</h5>
         <ul>
-            <li>Corporate site<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
-                                                                              src="image/cloudImg1.png"/></li>
-            <li>Business site<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
-                                                                             src="image/cloudImg2.png"/>
+            <li title="Custom software development, finding reasonablе and effective solutions for your company.">CUSTOM
+                SOFTWARE DEVELOPMENT
             </li>
-            <li>Online store<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
-                                                                               src="image/cloudImg3.png"/>
+            <li title="Bright and creative websites and graphic solutions of any complexity.">GRAPHIC & WEB DESIGN</li>
+            <li title="Oriole Software provides requirements elicitation and specification services along with development of recommendations for the automation of business processes and information management.">
+                REQUIREMENTS ELICITATION AND SPECIFICATION
             </li>
-            <li>Web application<img class="cloud" src="image/cloud.png"/> <img class="cloudImg"
-                                                                               src="image/cloudImg4.png"/></li>
+            <li title="Software testing and business analysis services tailored to the specific needs of each project.">
+                SOFTWARE TESTING
+            </li>
         </ul>
     </div>
 </div>
 <div class="clear"></div>
-<div class="fifth" id="fifth">
+<div class="fifth">
     <div class="container">
         <h5>Our projects</h5>
 
@@ -125,7 +125,8 @@
 
             <table>
                 <tr>
-                    <th colspan="3"><h5>Technology Stack</h5></th>
+
+                    <th colspan="3"><h5>Technologies</h5></th>
 
                 </tr>
 
@@ -193,7 +194,7 @@
 
 <div class="seventh">
     <div class="container">
-        <h5> Contacts</h5>
+        <h5>Contact Us</h5>
 
         <div class="contacts">
 
@@ -224,7 +225,7 @@
 
                     <tr>
                         <td colspan="2"><textarea name="message" cols="45" rows="5"
-                                                  placeholder="Your wishes or Technical task"></textarea></td>
+                                                  placeholder="Feedback"></textarea></td>
                     </tr>
                     <tr>
                         <td><input id="submit" type="submit" name="submit" value="Send"></td>
@@ -250,7 +251,6 @@
 
 <script src="js/js.js"></script>
 <script src="js/jquery/jquery.validate.js"></script>
-<script src="js/jquery/jquery.slicknav.js"></script>
 <script src="js/jquery/inputmask/inputmask.js"></script>
 <script src="js/jquery/inputmask/jquery.inputmask.js"></script>
 <script src="js/jquery/inputmask/inputmask.extensions.js"></script>
@@ -259,7 +259,7 @@
 <script src="js/owl/owl.autoheight.js"></script>
 <script src="js/owl/owl.autoplay.js"></script>
 <script src="js/jquery/jquery.scrollTo.js"></script>
-<script src="js/jquery/jquery.slicknav.js"></script>
+<script src="js/jquery/jquery-ui.js"></script>
 <script src="js/lightbox.js"></script>
 
 </body>

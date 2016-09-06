@@ -13880,12 +13880,12 @@
             // Disabled elements have inconsistent behavior across browsers (#8661)
             items: "[title]:not([disabled])",
             position: {
-                my: "left top+15",
-                at: "left bottom",
+                my: "right center",
+                at: "left-10 center",
                 collision: "flipfit flip"
             },
             show: true,
-            tooltipClass: null,
+            tooltipClass: "arrow_box",
             track: false,
 
             // callbacks

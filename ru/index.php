@@ -7,11 +7,12 @@
     <meta name="Keywords" content="">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Oriole Ltd - Web Solutions</title>
+    <title>Oriole - Software Solutions</title>
     <meta name="description" lang="ru"
-          content="Oriole Ltd предоставляет услуги по разработке веб-сайтов, промо-сайтов, корпоративных сайтов, интернет-магазинов и веб-приложений"/>
+          content="Oriole Software предоставляет качевственные ИТ услуги по разработке программного обеспечения"/>
 
 
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" media="all">
     <link rel="stylesheet" type="text/css" href="../css/owl/owl.carousel.css" media="all">
     <link rel="stylesheet" type="text/css" href="../css/owl/owl.theme.default.css" media="all">
@@ -48,7 +49,7 @@
     <div class="first">
         <h1 id="one">Oriole</h1>
 
-        <h2 id="two">Web Solutions</h2>
+        <h2 id="two">Software Solutions</h2>
 
     </div>
 </header>
@@ -59,7 +60,7 @@
 
 
         <li>
-            <p> Креативный <br>дизайн</p>
+            <p> Творческий <br>подход</p>
             <span></span>
         </li>
         <li>
@@ -77,33 +78,31 @@
     <div class="container">
         <h5>О Компании</h5>
 
-        <p>Oriole Ltd. является Восточно-Европейской компанией по веб-разработке программного обеспечения. Мы находимся
+        <p>Oriole является Восточно-Европейской компанией по разработке программного обеспечения. Мы находимся
             в
-            городе Харькове, Украина. Кредо
+            городе Харькове - самом центре ИТ отрасли Украины. Кредо нашей
             компании -
             предоставлять качественные услуги в срок, с учетом изменяющийся каждый день технологических тенденций. Мы
-            выполняем
-            полный цикл работ по созданию веб-проектов различного уровня сложности: разработка веб-сайтов, промо-сайтов,
-            веб-приложений,
-            корпоративных сайтов и интернет-магазинов. Каждый из проектов не только работа, которая будет
-            выполнена - это отдельный шедевр, который мы создаем вместе с каждым заказчиком. </p>
+            всегда добиваемся того, чтобы наши решения точно соответствовали бизнес-целям клиента. Независимо от
+            масштабов и направления бизнеса мы всегда предоставляем необходимые ИТ сервисы. </p>
     </div>
 </div>
 <div class="fouth">
     <div class="container">
         <h5>Услуги</h5>
         <ul>
-            <li>Корпоративный сайт<img class="cloud" src="../image/cloud.png"/> <img class="cloudImg"
-                                                                                      src="../image/cloudImg1.png"/>
+            <li title="Предоставление узкоспециализированных решений, выполнение проектов «с нуля» и «под ключ».">
+                Разработка и поддержка ПО на заказ
             </li>
-            <li>Сайт визитка<img class="cloud" src="../image/cloud.png"/> <img class="cloudImg"
-                                                                               src="../image/cloudImg2.png"/>
+            <li title="Креативные решения от фирменного стиля и графического дизайна до разработки сайтов.">Графический
+                дизайн и разработка сайтов
             </li>
-            <li>Интернет-магазин<img class="cloud" src="../image/cloud.png"/> <img class="cloudImg"
-                                                                                             src="../image/cloudImg3.png"/>
+            <li title="Глубокий анализ бизнес-процессов, формализация и приоритезация требований, подбор оптимальных решений для автоматизации внутренних процессов компании.">
+                Разработка технического задания
             </li>
-            <li>Веб-приложение<img class="cloud" src="../image/cloud.png"/> <img class="cloudImg"
-                                                                                  src="../image/cloudImg4.png"/></li>
+            <li title="Обеспечение и контроль качества программных продуктов а так же информационных систем.">
+                Тестирование ИС
+            </li>
         </ul>
     </div>
 </div>
@@ -226,7 +225,7 @@
 
                     <tr>
                         <td colspan="2"><textarea name="message" cols="45" rows="5"
-                                                  placeholder="Ваши пожелания"></textarea></td>
+                                                  placeholder="Обратная связь"></textarea></td>
                     </tr>
                     <tr>
                         <td><input id="submit" type="submit" name="submit" value="Отправить"></td>
@@ -252,16 +251,15 @@
 <script src="../js/js.js"></script>
 <script src="../js/jquery/jquery.validate.js"></script>
 <script src="../js/jquery/messages_ru.js"></script>
-<script src="../js/jquery/jquery.slicknav.js"></script>
 <script src="../js/jquery/inputmask/inputmask.js"></script>
 <script src="../js/jquery/inputmask/jquery.inputmask.js"></script>
 <script src="../js/jquery/inputmask/inputmask.extensions.js"></script>
+<script src="../js/jquery/jquery-ui.js"></script>
 <script src="../js/owl/owl.carousel.js"></script>
 <script src="../js/owl/owl.navigation.js"></script>
 <script src="../js/owl/owl.autoheight.js"></script>
 <script src="../js/owl/owl.autoplay.js"></script>
 <script src="../js/jquery/jquery.scrollTo.js"></script>
-<script src="../js/jquery/jquery.slicknav.js"></script>
 <script src="../js/lightbox.js"></script>
 
 </body>

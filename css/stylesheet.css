@@ -240,6 +240,7 @@ body {
 
 .second li {
 
+
     margin-top: 5%;
     font-family: 'Franklin Gothic Book';
     width: calc(100% / 3);
@@ -250,6 +251,7 @@ body {
 
 .second li span {
 
+
     display: block;
     width: 206px;
     height: 206px;
@@ -259,19 +261,53 @@ body {
 }
 
 .second li:nth-child(1) span {
+
     background: url(../image/forma2.png) 50% 50% no-repeat;
+    animation: colorchange 20s infinite;
     background-size: 50% auto, contain;
 }
 
+
 .second li:nth-child(2) span {
     background: url(../image/forma1.png) 50% 50% no-repeat;
+    animation: colorchange 20s infinite;
     background-size: 50% auto, contain;
 }
 
 .second li:nth-child(3) span {
     background: url(../image/forma3.png) 50% 50% no-repeat;
+    animation: colorchange 20s infinite;
     background-size: 50% auto, contain;
 }
+
+@keyframes colorchange {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: #94c3bc
+    }
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+    0% {
+        background: red;
+    }
+    25% {
+        background: yellow;
+    }
+    50% {
+        background: blue;
+    }
+    75% {
+        background: green;
+    }
+    100% {
+        background: red;
+    }
+}
+
 
 .third {
 
@@ -493,10 +529,11 @@ body {
 }
 
 .fifth .technology {
+    margin: 0 auto;
     display: table;
     border-radius: 5px;
     background-color: rgba(148, 195, 188, 0.7);
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -504,7 +541,7 @@ body {
 .fifth .technology table {
 
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
     height: auto;
 
 }

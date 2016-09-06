@@ -1,3 +1,9 @@
+$(function () {
+    $(document).tooltip();
+});
+
+
+
 $(document).ready(function () {
 
 
@@ -20,6 +26,7 @@ $(document).ready(function () {
 
     $('#feedback').validate({ // initialize the plugin
         rules: {
+
 
             name: {
                 required: true
@@ -70,6 +77,8 @@ google.maps.event.addDomListener(window, 'load', init_map);
 $(document).ready(function () {
     $('#pslider').owlCarousel({
 
+        nav: true,
+        dots: false,
         loop: true,
         smartSpeed: 1000,
         autoplay: true,

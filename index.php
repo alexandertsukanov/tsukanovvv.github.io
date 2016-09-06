@@ -7,7 +7,7 @@
     <meta name="Keywords" content="">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Oriole - Software Solutions</title>
+    <title>Oriole Software</title>
     <meta name="description" lang="en"
           content="Oriole Software provides top-quality IT services to customers in many areas"/>
 
@@ -215,8 +215,8 @@
             <form id="feedback" action="mail/mail" method="post">
                 <table>
                     <tr>
-                        <td><input name="name" id="name" type="text" placeholder="Name"></td>
-                        <td><input name="surname" id="surname" type="text" placeholder="Surname"></td>
+                        <td><input name="name" id="name" type="text" placeholder="First Name"></td>
+                        <td><input name="surname" id="surname" type="text" placeholder="Last Name"></td>
                     </tr>
                     <tr>
                         <td><input name="email" id="email" type="text" placeholder="E-mail"></td>

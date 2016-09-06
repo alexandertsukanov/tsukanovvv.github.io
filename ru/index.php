@@ -7,7 +7,7 @@
     <meta name="Keywords" content="">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Oriole - Software Solutions</title>
+    <title>Oriole Software</title>
     <meta name="description" lang="ru"
           content="Oriole Software предоставляет качевственные ИТ услуги по разработке программного обеспечения"/>
 

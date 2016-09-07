@@ -1908,6 +1908,7 @@ body .ui-tooltip {
 }
 
 .arrow_box {
+
     position: absolute;
     background: white;
     border: 4px solid rgb(35, 90, 84);

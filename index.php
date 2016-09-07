@@ -135,30 +135,52 @@
 
                     <td>
 
-                        <img src="image/technology/html5-original.svg"/>
 
-                        <p>HTML5</p>
+                        <img src="image/technology/angularjs-original.svg"/>
+
+                        <h6>AngularJS</h6>
+
+                        <br>
+
+                        <p>AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your
+                            template language and lets you extend HTML's syntax to express your application's components
+                            clearly and succinctly. Angular's data binding and dependency injection eliminate much of
+                            the code you would otherwise have to write.</p>
 
                     </td>
                     <td>
 
                         <img src="image/technology/css3-original.svg"/>
 
-                        <p>CSS3</p>
+                        <h6>CSS3</h6>
+                        <br>
+
+                        <p>CSS3 is the latest evolution of the Cascading Style Sheets language and aims at extending
+                            CSS2.1. It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients,
+                            transitions or animations, as well as new layouts like multi-columns, flexible box or grid
+                            layouts. </p>
 
                     </td>
                     <td>
 
-                        <img src="image/technology/javascript-original.svg"/>
+                        <img src="image/technology/asp_net_icon_transparent.png"/>
 
-                        <p>JavaScript</p>
+                        <h6>.NET</h6>
+                        <br>
+
+                        <p>.NET is the development platform used by millions of companies to create apps and services on
+                            any device and OS, with amazing performance and great productivity.</p>
                     </td>
 
                 </tr>
                 <td>
                     <img src="image/technology/java-original.svg"/>
 
-                    <p>Java</p>
+                    <h6>Java</h6>
+                    <br>
+
+                    <p>Java and associated technologies are emerging as the preferred way to build network management
+                        solutions, both for server-side and client-side applications. </p>
                 </td>
 
 
@@ -167,7 +189,12 @@
 
                     <img src="image/technology/database.png"/>
 
-                    <p>Databases</p>
+                    <h6>Databases</h6>
+                    <br>
+
+                    <p>A database is a collection of information that is organized so that it can easily be accessed,
+                        managed, and updated. In one view, databases can be classified according to types of content:
+                        bibliographic, full-text, numeric, and images.</p>
 
                 </td>
 
@@ -175,7 +202,12 @@
 
                     <img src="image/technology/php-original.svg"/>
 
-                    <p>PHP</p>
+                    <h6>PHP</h6>
+                    <br>
+
+                    <p>PHP is a popular general-purpose scripting language that is especially suited to web development.
+                        Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites
+                        in the world.</p>
 
                 </td>
                 <tr>
@@ -199,7 +231,7 @@
         <div class="contacts">
 
 
-            <h6>Oriole Ltd.</h6>
+            <h6>Oriole Software</h6>
 
             <p> Business center "AVALON", Alchevskih str. 31, Kharkiv</p>
 

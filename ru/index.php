@@ -7,9 +7,10 @@
     <meta name="Keywords" content="">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="alternate" hreflang="en" href="http://www.oriole-software/"/>
     <title>Oriole Software</title>
     <meta name="description" lang="ru"
-          content="Oriole Software предоставляет качевственные ИТ услуги по разработке программного обеспечения"/>
+          content="Oriole является Восточно-Европейской компанией по разработке программного обеспечения. Мы находимся в городе Харькове - самом центре ИТ отрасли Украины."/>
 
 
     <link rel="stylesheet" type="text/css" href="../css/jquery-ui.css">

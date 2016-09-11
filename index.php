@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 
 <head>
@@ -9,7 +9,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Oriole Software</title>
-    <meta name="description" lang="ru"
+    <meta name="description" lang="en"
           content="Oriole is an Eastern European IT company located in Kharkiv - the heart of the IT industry in Ukraine. "/>
 
 

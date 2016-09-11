@@ -3,7 +3,6 @@
 
 
 <head>
-    <link rel="alternate" href="http://www.oriole-software.com/" hreflang="x-default"/>
     <link rel="alternate" href="http://www.oriole-software.com/ru" hreflang="ru"/>
     <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
     <meta name="Keywords" content="">

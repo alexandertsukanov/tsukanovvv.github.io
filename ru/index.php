@@ -3,11 +3,11 @@
 
 
 <head>
+    <link rel="alternate" hreflang="en" href="http://www.oriole-software/"/>
     <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
     <meta name="Keywords" content="">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="alternate" hreflang="en" href="http://www.oriole-software/"/>
     <title>Oriole Software</title>
     <meta name="description" lang="ru"
           content="Oriole является Восточно-Европейской компанией по разработке программного обеспечения. Мы находимся в городе Харькове - самом центре ИТ отрасли Украины."/>

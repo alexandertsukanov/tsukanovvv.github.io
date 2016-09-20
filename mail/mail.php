@@ -15,8 +15,8 @@ $mail->Password = '003a5b7481570f54ce58400f89426a5e';                           
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom('oriole.software@gmail.com');
-$mail->addAddress('oriole.software@gmail.com', 'Oriole Ltd.');     // Add a recipient
+$mail->setFrom('bot@oriole-software.com');
+$mail->addAddress('contact@oriole-software.com', 'Oriole Software');     // Add a recipient
 // Name is optional
 $mail->isHTML(true);                                  // Set email format to HTML
 

@@ -8,10 +8,10 @@ $mail = new PHPMailer;
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.mailgun.org';  // Specify main and backup SMTP servers
+$mail->Host = 'smtp.zoho.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'postmaster@sandbox195b4245e5fa4f9981afc522f651d7c4.mailgun.org';                 // SMTP username
-$mail->Password = '003a5b7481570f54ce58400f89426a5e';                           // SMTP password
+$mail->Username = 'bot@oriole-software.com';                 // SMTP username
+$mail->Password = '132465bot';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 

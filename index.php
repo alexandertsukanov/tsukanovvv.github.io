@@ -246,7 +246,7 @@
         </div>
 
         <div class="feedback">
-            <form id="feedback" action="/mail" method="post">
+            <form id="feedback" action="/mail/mail" method="post">
                 <table>
                     <tr>
                         <td><input name="name" id="name" type="text" placeholder="First Name"></td>

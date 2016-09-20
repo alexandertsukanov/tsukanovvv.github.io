@@ -21,7 +21,8 @@ $mail->addAddress('contact@oriole-software.com', 'Oriole Software');     // Add 
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'New feedback';
-$mail->Body = "</br>" . "Name: " . $_POST['name'] . "</br> " . "Surname: " . $_POST['surname'] . "</br>" . "Email: " . $_POST['email'] . "</br>" . "Writed next: " . "</br></br>" . $_POST['message'];
+$mail->Body = "\n" . "Name: " . $_POST['name'] . "\n" . "Surname: " . $_POST['surname'] . "\n" . "Email: " . $_POST['email'] . "\n" . "Writed next: " . "\n\n" . $_POST['message'];
+//$mail->Body = "</br>" . "Name: " . $_POST['name'] . "</br> " . "Surname: " . $_POST['surname'] . "</br>" . "Email: " . $_POST['email'] . "</br>" . "Writed next: " . "</br></br>" . $_POST['message'];
 
 $mail->AltBody = "\n" . "Name: " . $_POST['name'] . "\n" . "Surname: " . $_POST['surname'] . "\n" . "Email: " . $_POST['email'] . "\n" . "Writed next: " . "\n\n" . $_POST['message'];
 

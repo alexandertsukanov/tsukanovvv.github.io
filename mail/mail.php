@@ -18,7 +18,7 @@ $mail->setFrom('bot@oriole-software.com', "Oriole Feedback");
 $mail->addAddress('alexander.tsukanovvv@gmail.com', "To PM of Oriole Software");     // Add a recipient
 // Name is optional
 $mail->isHTML(true);                                  // Set email format to HTML
-
+$mail->CharSet = 'UTF-8';
 $mail->Subject = 'New feedback';
 
 $mail->Body = "<html><body>" . "Name: " . $_POST['name'] . "<br/>" . "Surname: " . $_POST['surname'] . "<br/>" . "Email: " . $_POST['email'] . "<br/><br/>" . "Feedback: " . "<br/>" . $_POST['message'] . "</body></html>";

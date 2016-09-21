@@ -14,9 +14,8 @@ $mail->Username = 'postmaster@oriole-software.com';                 // SMTP user
 $mail->Password = '6a26ed61e5900a472807eb47d1a87d56';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
-
 $mail->setFrom('bot@oriole-software.com', "Oriole Feedback");
-$mail->addAddress('contact@oriole-software.com', "To PM of Oriole Software");     // Add a recipient
+$mail->addAddress('alexander.tsukanovvv@gmail.com', "To PM of Oriole Software");     // Add a recipient
 // Name is optional
 $mail->isHTML(true);                                  // Set email format to HTML
 

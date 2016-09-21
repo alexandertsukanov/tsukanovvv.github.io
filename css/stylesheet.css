@@ -960,6 +960,7 @@ body {
 
 .modal-footer #ok {
 
+    transition: 1s linear;
     border: none;
     outline: none;
     border-radius: 10px;
@@ -969,6 +970,13 @@ body {
     text-align: center;
     background-color: #94c3bc;
     color: white;
+}
+
+.modal-footer #ok:hover {
+
+    background-color: #2f655f;
+    border: 2px solid;
+
 }
 
 

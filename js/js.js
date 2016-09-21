@@ -25,6 +25,12 @@ $(document).ready(function () {
 $(document).ready(function () {
 
     $('#feedback').validate({ // initialize the plugin
+
+
+        highlight: function (element, errorClass) {
+            return false;
+        },
+
         rules: {
 
 

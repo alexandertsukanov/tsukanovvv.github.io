@@ -281,6 +281,28 @@
 
 </div>
 
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">×</span>
+            <h6>Обратная связь</h6>
+        </div>
+        <div class="modal-body">
+            <p>Спасибо, мы скоро с Вами свяжемся.</p>
+        </div>
+        <div class="modal-footer">
+            <button id="ok">OK</button>
+        </div>
+    </div>
+
+    <script>
+
+    </script>
+
+</div>
+
 <noscript>
     <div><img src="https://mc.yandex.ru/watch/39143700" style="position:absolute; left:-9999px;" alt=""/></div>
 </noscript>

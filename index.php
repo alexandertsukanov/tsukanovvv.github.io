@@ -247,7 +247,7 @@
         </div>
 
         <div class="feedback">
-            <form id="feedback" action="./mail/mail" method="post">
+            <form id="feedback" method="post">
                 <table>
                     <tr>
                         <td><input name="name" id="name" type="text" placeholder="First Name"></td>
@@ -258,15 +258,18 @@
                         <td><input name="phone" id="phone" type="text" placeholder="Phone"></td>
                     </tr>
 
-                    <tr>
+                    <tr class="field">
                         <td colspan="2"><textarea name="message" cols="45" rows="5"
                                                   placeholder="Feedback"></textarea></td>
                     </tr>
                     <tr>
-                        <td><input id="submit" type="submit" name="submit" value="Send"></td>
+                        <td><input disabled="disabled" class="submit" id="submit" type="submit" name="submit"
+                                   value="Send"></td>
                     </tr>
                 </table>
             </form>
+
+
         </div>
 
         <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCkwTab1IG4P19wHrveWiPeEJPFotetvJk'></script>
@@ -275,6 +278,28 @@
         </div>
 
     </div>
+
+</div>
+
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">×</span>
+            <h6>Feedback</h6>
+        </div>
+        <div class="modal-body">
+            <p>Thank you for your feedback, we will contact you as soon as possible.</p>
+        </div>
+        <div class="modal-footer">
+            <button id="ok">OK</button>
+        </div>
+    </div>
+
+    <script>
+
+    </script>
 
 </div>
 

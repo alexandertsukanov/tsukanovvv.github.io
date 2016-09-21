@@ -16,7 +16,7 @@ $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, 
 $mail->Port = 587;                                    // TCP port to connect to
 
 $mail->setFrom('bot@oriole-software.com', "Oriole Feedback");
-$mail->addAddress('contact@oriole-software.com', 'Oriole Software');     // Add a recipient
+$mail->addAddress('contact@oriole-software.com', "To PM of Oriole Software");     // Add a recipient
 // Name is optional
 $mail->isHTML(true);                                  // Set email format to HTML
 

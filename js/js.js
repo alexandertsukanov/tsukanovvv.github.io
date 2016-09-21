@@ -49,8 +49,17 @@ $(document).ready(function () {
         },
 
 
+
         errorPlacement: function (error, element) {
             error.insertBefore(element);
+        }
+    });
+
+    $('#feedback input, textarea').on('keyup blur', function () {
+        if ($('#feedback').valid()) {
+            $('#submit').prop('disabled', false);
+        } else {
+            $('#submit').prop('disabled', 'disabled');
         }
     });
 
@@ -160,6 +169,55 @@ ga('send', 'pageview');
 })(document, window, "yandex_metrika_callbacks");
 
 
+///FEEDBACK AJAX
+
+
+$(document).ready(function () {
+
+
+    $('#feedback').submit(function (e) {
+        e.preventDefault();
+        $.ajax({
+            url: '/mail/mail.php',
+            type: 'post',
+            data: $("#feedback").serialize(),
+            success: function () {
+
+                modal.style.display = "block";
+                for (var i = 0; i < $("#feedback").length; i++) {
+                    $("#feedback")[i].reset();
+                }
+
+            }
+        });
+    });
+
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+// Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    var ok = document.getElementById("ok");
+
+    ok.onclick = function () {
+        modal.style.display = "none";
+    }
+// When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+
+})
 
 
 

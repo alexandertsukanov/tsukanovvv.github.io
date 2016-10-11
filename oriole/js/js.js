@@ -181,19 +181,12 @@ $(document).ready(function () {
 
     $('#feedback').submit(function (e) {
         e.preventDefault();
-        $.ajax({
-            url: '/mail/mail.php',
-            type: 'post',
-            data: $("#feedback").serialize(),
-            success: function () {
+        modal.style.display = "block";
+        for (var i = 0; i < $("#feedback").length; i++) {
+            $("#feedback")[i].reset();
+        }
 
-                modal.style.display = "block";
-                for (var i = 0; i < $("#feedback").length; i++) {
-                    $("#feedback")[i].reset();
-                }
 
-            }
-        });
     });
 
     // Get the modal

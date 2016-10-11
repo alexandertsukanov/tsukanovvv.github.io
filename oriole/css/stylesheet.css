@@ -84,6 +84,7 @@ footer p {
     top: 0%;
     height: auto;
 
+
 }
 
 #menu_m {
@@ -169,6 +170,7 @@ body {
 }
 
 .first {
+
 
     position: relative;
     margin: 18% auto;
@@ -258,6 +260,7 @@ body {
 
 .second li {
 
+
     margin-top: 5%;
     font-family: 'Franklin Gothic Book';
     width: calc(100% / 3);
@@ -267,6 +270,7 @@ body {
 }
 
 .second li span {
+
 
     display: block;
     width: 206px;
@@ -282,6 +286,7 @@ body {
     animation: colorchange 20s infinite;
     background-size: 50% auto, contain;
 }
+
 
 .second li:nth-child(2) span {
     background: url(../image/forma1.png) 50% 50% no-repeat;
@@ -314,6 +319,7 @@ body {
     }
 }
 
+
 .third {
 
     width: 100%;
@@ -322,6 +328,7 @@ body {
     overflow-x: hidden;
     background-size: cover;
     background: url(../image/thirdFon.png) no-repeat top center #f1fcfb;
+
 
 }
 
@@ -776,7 +783,7 @@ body {
     padding-left: 2%;
     border: none;
     display: inline-block;
-    margin: 3% 1% 1% 0%;
+    margin: 9% 1% 1% 0%;
     border-radius: 10px;
     background-color: #94c3bc;
     font-size: 25px;
@@ -813,7 +820,7 @@ body {
 
     color: white;
     padding: 1% 0 0 1%;
-    margin: 1% 1% 1% 0%;
+    margin: 4% 1% 1% 0%;
     border: none;
     border-radius: 10px;
     background-color: #94c3bc;
@@ -849,11 +856,13 @@ body {
     text-overflow: ellipsis;
     overflow: hidden;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid;
     font-family: 'Franklin Gothic Book';
     color: red;
+    margin: -1px 0 0 0;
     display: block;
+    position: absolute;
 
 }
 
@@ -871,7 +880,6 @@ body {
     background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
-/* Modal Content */
 .modal-content {
     position: relative;
     background-color: #fefefe;
@@ -1322,7 +1330,6 @@ body {
         float: left;
 
     }
-
     .seventh table td {
 
         clear: both;

@@ -7,7 +7,6 @@
 .idea/
 Icons/
 .openshift/
-image/
 # if you remove the above rule, at least ignore the following:
 
 # User-specific stuff:

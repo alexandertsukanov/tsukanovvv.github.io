@@ -1,0 +1,1359 @@
+/*-------------------Delete-placeholder---------------*/
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:-moz-placeholder {
+    color: #ffffff
+}
+
+input::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+textarea:focus:-moz-placeholder {
+    color: transparent;
+}
+
+textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+textarea:-moz-placeholder {
+    color: #ffffff
+}
+
+textarea::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+/*-------------------Delete-placeholder---------------*/
+
+@font-face {
+    font-family: 'Taurus-Normal';
+    src: url('../fonts/Taurus-Normal.eot?#iefix') format('embedded-opentype'), url('../fonts/Taurus-Normal.woff') format('woff'), url('../fonts/Taurus-Normal.ttf') format('truetype'), url('../fonts/Taurus-Normal.svg#Taurus-Normal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Franklin Gothic Book'), url('../fonts/FRABK.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TFFFranklinGothicDemi';
+    src: url('../fonts/TFFFranklinGothicDemi.eot?#iefix') format('embedded-opentype'), url('../fonts/TFFFranklinGothicDemi.woff') format('woff'), url('../fonts/TFFFranklinGothicDemi.ttf') format('truetype'), url('../fonts/TFFFranklinGothicDemi.svg#TFFFranklinGothicDemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer {
+
+    clear: both;
+    text-align: center;
+    background-color: rgb(35, 90, 84);
+    width: 100%;
+    height: 50px;
+
+}
+
+footer p {
+
+    padding-top: 1%;
+    font-size: 1.0em;
+    color: white;
+
+}
+
+#logo img {
+
+    opacity: 0;
+    -moz-transition: opacity 2s; /* Firefox 4 */
+    -webkit-transition: opacity 2s; /* Safari and Chrome */
+    -o-transition: opacity 2s;
+    transition: opacity 2s;
+    position: absolute;
+    width: 30%;
+    top: 0%;
+    height: auto;
+
+}
+
+#menu_m {
+
+    display: none;
+
+}
+
+.slicknav_menu {
+
+    display: none;
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    text-decoration: none;
+    outline: none;
+    font-weight: 400;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+
+    width: 100%;
+    height: 100%;
+    background: url(../image/BodyFon.png) no-repeat top center #f1fcfb;
+    background-size: contain;
+
+}
+
+.container {
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu {
+
+    /*border: solid 2px white;*/
+
+    top: 1%;
+    right: 0.5%;
+    border-radius: 5px;
+    z-index: 4;
+    position: fixed;
+    font-family: 'Franklin Gothic Book';
+    font-size: 1.7em;
+    display: inline-block;
+
+}
+
+.menu ul li {
+
+    border: 3px solid rgb(35, 90, 84);
+    border-radius: 5px;
+    background-color: rgb(35, 90, 84);
+    display: inline;
+
+}
+
+.menu ul li a {
+    transition: all 0.2s linear;
+    color: white;
+}
+
+.menu ul li a:hover {
+
+    background-color: #94c3bc;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.first {
+
+    position: relative;
+    margin: 18% auto;
+    display: block;
+    text-align: center;
+    height: 200px;
+    width: auto;
+}
+
+.first h1 {
+
+    animation: blur 2s ease-out 1;
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
+    font-family: 'Taurus-Normal', serif;
+    color: #ffffff;
+    font-size: 5em;
+}
+
+.first h2 {
+
+    opacity: 0;
+    animation-delay: 2s;
+    font-family: 'Taurus-Normal', serif;
+    color: #ffffff;
+    font-size: 3em;
+}
+
+@keyframes blur {
+    from {
+        text-shadow: 0px 0px 10px #fff,
+        0px 0px 10px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #7B96B8,
+        0px 0px 150px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8
+
+    }
+}
+
+@-webkit-keyframes blur {
+    from {
+        text-shadow: 0px 0px 10px #fff,
+        0px 0px 10px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #7B96B8,
+        0px 0px 150px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8
+
+    }
+}
+
+.second p {
+
+    height: 100px;
+
+}
+
+.second {
+
+    margin-top: -7%;
+    position: relative;
+    list-style: none;
+    height: 500px;
+
+}
+
+.second li {
+
+    margin-top: 5%;
+    font-family: 'Franklin Gothic Book';
+    width: calc(100% / 3);
+    float: left;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.second li span {
+
+    display: block;
+    width: 206px;
+    height: 206px;
+    margin: 10% auto 10%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 3px #cee5dc;
+}
+
+.second li:nth-child(1) span {
+
+    background: url(../image/forma2.png) 50% 50% no-repeat;
+    animation: colorchange 20s infinite;
+    background-size: 50% auto, contain;
+}
+
+.second li:nth-child(2) span {
+    background: url(../image/forma1.png) 50% 50% no-repeat;
+    animation: colorchange 20s infinite;
+    background-size: 50% auto, contain;
+}
+
+.second li:nth-child(3) span {
+    background: url(../image/forma3.png) 50% 50% no-repeat;
+    animation: colorchange 20s infinite;
+    background-size: 50% auto, contain;
+}
+
+@keyframes colorchange {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: #94c3bc
+    }
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: #94c3bc
+    }
+}
+
+.third {
+
+    width: 100%;
+    height: 643px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-size: cover;
+    background: url(../image/thirdFon.png) no-repeat top center #f1fcfb;
+
+}
+
+.third h5 {
+
+    font-family: Taurus-Normal, serif;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 3.0em;
+    border-left: 14px solid #94c3bc;
+    padding-left: 15px;
+    margin: 50px 0 20px 0;
+}
+
+.third p {
+
+    font-family: 'Franklin Gothic Book';
+    color: #ffffff;
+    font-size: 2.4em;
+    border-top: 4px solid #94c3bc;
+    border-bottom: 4px solid #94c3bc;
+    padding: 50px 0 50px 0;
+}
+
+.fouth {
+    padding-bottom: 150px;
+    font-size: 13px;
+}
+
+.fouth h5 {
+    padding-left: 15px;
+    border-left: 14px solid #94c3bc;
+    font-family: 'Taurus-Normal';
+    font-size: 3.1em;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.fouth ul {
+    list-style: none;
+}
+
+.fouth ul li {
+
+    display: block;
+    font-family: 'Franklin Gothic Book';
+    font-size: 3.0em;
+    color: #ffffff;
+    border-radius: 28px;
+    position: relative;
+    padding: 35px 0 35px 60px;
+}
+
+/*CLOUDS////////////////////////////////////////////*/
+
+.fouth ul li:nth-child(1) .cloudImg {
+
+    margin: 6% 10%;
+    width: 10%;
+    height: auto;
+    position: absolute;
+    display: block;
+    top: -10%;
+    left: 90%;
+    z-index: 3;
+}
+
+.fouth ul li:nth-child(1) .cloud {
+
+    width: 30%;
+    height: auto;
+    position: absolute;
+    display: block;
+    top: -10%;
+    left: 90%;
+    z-index: 2;
+}
+
+.fouth ul li:nth-child(2) .cloudImg {
+
+    margin: 6% 10%;
+    width: 10%;
+    height: auto;
+    position: absolute;
+    display: block;
+    top: 15%;
+    left: 85%;
+    z-index: 3;
+}
+
+.fouth ul li:nth-child(2) .cloud {
+
+    width: 40%;
+    height: auto;
+    position: absolute;
+    display: block;
+    top: -10%;
+    left: 80%;
+    z-index: 3;
+}
+
+.fouth ul li:nth-child(3) .cloudImg {
+
+    margin: 6% 10%;
+    width: 10%;
+    height: auto;
+    position: absolute;
+    display: block;
+    top: 1%;
+    left: 90%;
+    z-index: 3;
+}
+
+.fouth ul li:nth-child(3) .cloud {
+
+    width: 30%;
+    height: auto;
+    position: absolute;
+    display: block;
+    top: -10%;
+    left: 90%;
+    z-index: 3;
+}
+
+.fouth ul li:nth-child(4) .cloudImg {
+
+    margin: 6% 10%;
+    width: 10%;
+    height: auto;
+    position: absolute;
+    display: block;
+    top: 10%;
+    left: 85%;
+    z-index: 3;
+}
+
+.fouth ul li:nth-child(4) .cloud {
+
+    width: 40%;
+    height: auto;
+    position: absolute;
+    display: block;
+    top: -10%;
+    left: 80%;
+    z-index: 3;
+}
+
+.fouth ul li:nth-child(1) {
+    background: #94c3bc;
+    width: 82%;
+}
+
+.fouth ul li:nth-child(1) span {
+    padding-right: 245px;
+}
+
+.fouth ul li:nth-child(2) {
+    background: #2f645e;
+    width: 59%;
+}
+
+.fouth ul li:nth-child(2) span {
+    padding-right: 109px;
+}
+
+.fouth ul li:nth-child(3) {
+    background: #94c3bc;
+    width: 79%;
+}
+
+.fouth ul li:nth-child(3) span {
+    padding-right: 272px;
+}
+
+.fouth ul li:nth-child(4) {
+    background: #2f645e;
+    width: 62%;
+}
+
+.fouth ul li:nth-child(4) span {
+    padding-right: 138px;
+}
+
+.fifth {
+    background: url(../image/fifthFon.png) top center no-repeat #f1fcfb;
+    height: 1550px;
+}
+
+.fifth h5 {
+    display: inline-block;
+    font-family: 'Taurus-Normal';
+    color: #ffffff;
+    font-size: 3.1em;
+    border-left: 14px solid #94c3bc;
+    padding-left: 15px;
+    margin-top: 10%;
+}
+
+.fifth .technology table tr th h5 {
+
+    border-left: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.fifth .technology {
+    border: 1px solid white;
+    margin: 0 auto;
+    display: table;
+    border-radius: 5px;
+    background-color: rgba(35, 90, 84, 0.9);
+    width: 100%;
+    height: auto;
+}
+
+/*TO DO*/
+.fifth .technology table {
+
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+
+}
+
+.fifth .technology table tr td {
+
+    height: 100px;
+    width: 300px;
+
+}
+
+.fifth .technology img {
+
+    padding-right: 10px;
+    float: left;
+    height: 120px;
+    width: 110px;
+
+}
+
+.fifth .technology p {
+
+    overflow: hidden;
+    height: 180px;
+    font-size: 1em;
+    color: white;
+    font-family: "Franklin Gothic Book";
+
+}
+
+.fifth .technology h6 {
+
+    font-size: 1.5em;
+    color: white;
+    font-family: "Franklin Gothic Book";
+
+}
+
+.devicon-git-plain {
+    max-width: 2em;
+}
+
+#pslider {
+
+    margin-top: 10%;
+
+}
+
+#pslider img {
+
+    border-radius: 5px;
+
+}
+
+.sixth {
+
+    height: 800px;
+
+}
+
+.sixth h5 {
+
+    font-family: 'Taurus-Normal';
+    display: inline-block;
+    color: black;
+    font-size: 2.9em;
+    border-left: 14px solid #94c3bc;
+    padding-left: 15px;
+    margin-top: 5%;
+
+}
+
+.seventh {
+
+    height: 1000px;
+
+}
+
+.seventh h5 {
+
+    font-family: 'Taurus-Normal';
+    display: inline-block;
+    color: black;
+    font-size: 2.9em;
+    border-left: 14px solid #94c3bc;
+    padding-left: 15px;
+    margin-top: 5%;
+
+}
+
+.seventh .contacts {
+
+    border-radius: 10px;
+    margin-top: 5%;
+    width: 100%;
+    background-color: #94c3bc;
+
+}
+
+.seventh .contacts h6 {
+
+    padding-top: 1%;
+    padding-left: 1%;
+    color: white;
+    font-size: 4em;
+
+}
+
+.seventh .contacts p {
+
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    font-size: 2em;
+}
+
+.seventh .contacts i {
+
+    padding-left: 2%;
+    padding-top: 2%;
+    color: white;
+    font-size: 2em;
+    transition: 1s all;
+}
+
+#skype i:hover {
+
+    color: #12A5F4;
+
+}
+
+#facebook i:hover {
+
+    color: #3b5998
+
+}
+
+#vk i:hover {
+
+    color: #45668e;
+
+}
+
+.seventh .contacts a {
+
+    display: inline-block;
+    color: white;
+    font-size: 1em;
+}
+
+.seventh .contacts a:nth-child(3) {
+
+    margin-left: 2%;
+    margin-right: 1%;
+    font-size: 2em;
+
+}
+
+.seventh .contacts a:nth-child(4) {
+
+    margin-left: 2%;
+
+    font-size: 2em;
+
+}
+
+.seventh .contacts a:nth-child(5) {
+
+    margin-left: 2%;
+    margin-right: 5%;
+    font-size: 2em;
+
+}
+
+.seventh .contacts a:nth-child(6) {
+
+    margin: 1%;
+    float: right;
+    position: relative;
+    display: table;
+
+}
+
+.seventh .feedback {
+
+    margin: 0% 0% 0% 0%;
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+#gmap_canvas {
+
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px
+
+}
+
+#gmap_canvas img {
+    max-width: none !important;
+    background: none !important
+}
+
+.seventh .map {
+
+    overflow: hidden;
+    margin: 1% 0 0% 0%;
+    border-radius: 10px;
+    background-color: #94c3bc;
+    width: 500px;
+    height: 410px;
+    float: right;
+
+}
+
+.seventh form {
+
+    width: 600px;
+
+}
+
+.seventh input {
+
+    float: left;
+    color: white;
+    padding-left: 2%;
+    border: none;
+    display: inline-block;
+    margin: 3% 1% 1% 0%;
+    border-radius: 10px;
+    background-color: #94c3bc;
+    font-size: 25px;
+    height: 50px;
+    width: 240px;
+}
+
+.seventh #submit {
+
+    background-color: #2f655f;
+
+}
+
+.seventh #submit:disabled {
+
+    background-color: darkgrey;
+    box-shadow: none;
+}
+
+.seventh input:focus {
+
+    background-color: #2f655f;
+
+}
+
+.seventh input:hover {
+
+    box-shadow: 0px 0px 10px 5px #2f655f;
+    transition: 0.4s all;
+
+}
+
+.seventh textarea {
+
+    color: white;
+    padding: 1% 0 0 1%;
+    margin: 1% 1% 1% 0%;
+    border: none;
+    border-radius: 10px;
+    background-color: #94c3bc;
+    font-size: 30px;
+    width: 500px;
+    height: 300px;
+}
+
+.seventh textarea:hover {
+
+    box-shadow: 0px 0px 10px 5px #2f655f;
+    transition: 1s all;
+
+}
+
+.seventh textarea:focus {
+
+    transition: 1s all;
+    background-color: #2f655f;
+
+}
+
+.seventh table td {
+
+    white-space: nowrap;
+
+}
+
+.error {
+
+    word-wrap: break-word;
+    max-width: 250px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid;
+    font-family: 'Franklin Gothic Book';
+    color: red;
+    display: block;
+
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    font-family: "Franklin Gothic Book";
+    font-size: 1.5em;
+    padding: 20px 16px;
+    background-color: #2f655f;
+    color: white;
+}
+
+.modal-body {
+
+    font-family: "Franklin Gothic Book";
+    padding: 20px 16px;
+    font-size: 2em;
+}
+
+.modal-footer {
+    text-align: center;
+    padding: 20px 16px;
+    background-color: #2f655f;
+    color: white;
+}
+
+.modal-footer #ok {
+
+    transition: 1s linear;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    background-color: #94c3bc;
+    color: white;
+}
+
+.modal-footer #ok:hover {
+
+    background-color: #2f655f;
+    border: 2px solid;
+
+}
+
+@media screen and (max-width: 1150px) {
+
+    body {
+
+        font-size: 0.7em;
+
+    }
+
+    .first {
+
+        height: 100px;
+
+    }
+
+    .second {
+
+        height: 250px;
+
+    }
+
+    .second ul {
+
+        text-align: right;
+
+    }
+
+    .second p {
+
+        height: 60px;
+    }
+
+    .second li {
+
+        font-family: 'Franklin Gothic Book';
+        width: 33%;
+        height: auto;
+        text-align: center;
+        font-size: 2.0em;
+    }
+
+    .second li span {
+
+        margin-top: 20%;
+        display: block;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 0px 3px #cee5dc;
+    }
+
+    .fouth ul li {
+
+        display: block;
+        font-family: 'Franklin Gothic Book';
+        font-size: 2.0em;
+        color: #ffffff;
+        border-radius: 28px;
+        position: relative;
+        padding: 35px 40px 35px 30px;
+    }
+
+    .fifth .technology h6 {
+
+        width: 100px;
+        font-size: 1.5em;
+        color: white;
+        font-family: "Franklin Gothic Book";
+
+    }
+
+    .seventh .map {
+
+        margin-top: 5%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        border-radius: 10px;
+        background-color: #94c3bc;
+        width: 500px;
+        height: 500px;
+        float: left;
+        clear: both;
+
+    }
+
+}
+
+@media screen and (max-width: 510px) {
+
+    body {
+
+        font-size: 0.5em;
+        height: 400px;
+        background-size: contain;
+
+    }
+
+    #logo {
+
+        display: none;
+
+    }
+
+    .menu {
+
+        display: none;
+
+    }
+
+    .first {
+
+        width: 300px;
+        height: 100px;
+        text-align: center;
+
+    }
+
+    .second {
+
+        margin-top: -15%;
+        height: 250px;
+
+    }
+
+    .second ul {
+
+        text-align: right;
+
+    }
+
+    .second p {
+
+        height: 60px;
+    }
+
+    .second li {
+
+        font-family: 'Franklin Gothic Book';
+        width: 33%;
+        height: 200px;
+        text-align: center;
+        font-size: 2.2em;
+    }
+
+    .second li span {
+
+        margin-top: 50%;
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 0px 3px #cee5dc;
+    }
+
+    .fouth {
+        padding-bottom: 150px;
+        font-size: 0.5em;
+        height: 300px;
+    }
+
+    .fouth h5 {
+
+        font-size: 6em;
+    }
+
+    .fouth ul li {
+
+        display: block;
+        font-family: 'Franklin Gothic Book';
+        font-size: 4.0em;
+        color: #ffffff;
+        border-radius: 28px;
+        position: relative;
+        padding: 35px 40px 35px 30px;
+    }
+
+    /*CLOUDS////////////////////////////////////////////*/
+    .fouth ul li:nth-child(1) .cloudImg {
+
+        margin: 6% 10%;
+        width: 10%;
+        height: auto;
+        position: absolute;
+        display: block;
+        top: -10%;
+        left: 70%;
+        z-index: 3;
+    }
+
+    .fouth ul li:nth-child(1) .cloud {
+
+        width: 30%;
+        height: auto;
+        position: absolute;
+        display: block;
+        top: -10%;
+        left: 70%;
+        z-index: 2;
+    }
+
+    .fouth ul li:nth-child(2) .cloudImg {
+
+        margin: 6% 10%;
+        width: 10%;
+        height: auto;
+        position: absolute;
+        display: block;
+        top: 10%;
+        left: 75%;
+        z-index: 3;
+    }
+
+    .fouth ul li:nth-child(2) .cloud {
+
+        width: 40%;
+        height: auto;
+        position: absolute;
+        display: block;
+        top: -10%;
+        left: 70%;
+        z-index: 3;
+    }
+
+    .fouth ul li:nth-child(3) .cloudImg {
+
+        margin: 6% 10%;
+        width: 10%;
+        height: auto;
+        position: absolute;
+        display: block;
+        top: -1%;
+        left: 70%;
+        z-index: 3;
+    }
+
+    .fouth ul li:nth-child(3) .cloud {
+
+        width: 30%;
+        height: auto;
+        position: absolute;
+        display: block;
+        top: -10%;
+        left: 70%;
+        z-index: 3;
+    }
+
+    .fouth ul li:nth-child(4) .cloudImg {
+
+        margin: 6% 10%;
+        width: 10%;
+        height: auto;
+        position: absolute;
+        display: block;
+        top: 5%;
+        left: 75%;
+        z-index: 3;
+    }
+
+    .fouth ul li:nth-child(4) .cloud {
+
+        width: 40%;
+        height: auto;
+        position: absolute;
+        display: block;
+        top: -10%;
+        left: 70%;
+        z-index: 3;
+    }
+
+    .fifth {
+        background: url(../image/fifthFon.png) top center no-repeat #f1fcfb;
+        height: auto;
+    }
+
+    .fifth h5 {
+
+        margin-top: 25%;
+    }
+
+    .fifth .technology img {
+
+        width: 100px;
+        height: 100px;
+
+    }
+
+    #gmap_canvas {
+
+        width: 90%;
+        height: 90%;
+        top: 5%;
+        position: relative;
+        border-radius: 10px
+
+    }
+
+    #gmap_canvas img {
+
+        max-width: none !important;
+        background: none !important
+    }
+
+    .seventh textarea {
+
+        display: block;
+        float: left;
+        width: 320px;
+
+    }
+
+    .seventh .map {
+
+        margin-top: 5%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        border-radius: 10px;
+        background-color: #94c3bc;
+        width: 320px;
+        height: 400px;
+        float: left;
+
+    }
+
+    .seventh table {
+
+        float: left;
+        display: block;
+        width: 50px;
+        border-collapse: collapse;
+        border-spacing: 0;
+
+    }
+
+    .seventh td[data-th]:before {
+        content: attr(data-th);
+        float: left;
+    }
+
+    .seventh thead th:not(:first-child) {
+        display: none;
+    }
+
+    .seventh table th {
+
+        float: left;
+        display: block;
+
+    }
+
+    .seventh table tr {
+
+        clear: both;
+        display: block;
+        float: left;
+
+    }
+
+    .seventh table td {
+
+        clear: both;
+        float: left;
+        margin-top: 20px;
+        display: block;
+
+    }
+
+    .seventh td > div {
+        float: right;
+    }
+
+}
+
+/*#name{*/
+
+/*}*/
+
+/*#surname{*/
+
+/*}*/
+
+/*#phone{*/
+
+/*}*/
+
+/*#email{*/
+
+/*}*/
+
+/*#massage{*/
+
+/*}*/
